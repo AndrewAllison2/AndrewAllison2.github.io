@@ -6,12 +6,20 @@
         <div class="col-6">
           <div class="ms-5 mt-5">
             <h1 class="fs-5 text-white">Hi, I'm Andrew</h1>
-            <h1 class="fs-3">A full-stack <h2 class="">Software Developer</h2></h1>
+            <h1 class="fs-3 text-white">A full-stack <span class="fs-1 text-warning">Software Developer</span> </h1>
           </div>
         </div>
 
-        <div class="col-6"></div>
+        <div class="col-6">
+          <div>
+            <img src="" alt="Andrew Allison">
+          </div>
+        </div>
 
+      </div>
+
+      <div class="row mt-5 text-center text-white">
+        <h2 class="fs-1">SKILLS</h2>
       </div>
     </div>
   </div>
@@ -32,5 +40,6 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  background-attachment: fixed;
 }
 </style>
