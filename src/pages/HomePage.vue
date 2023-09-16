@@ -23,29 +23,22 @@
       </div>
 
       <div class="row">
-        <h2 class="fs-1">APPLICATIONS</h2>
-        <div>
-          <div class="col-3">
-            <div class="card" style="width: 18rem;">
-              <img src="https://codeworks.blob.core.windows.net/public/assets/img/projects/AllSpicePoster.jpg" class="card-img-top" alt="AllSpice">
-              <div class="card-body">
-                <h5 class="card-title">AllSpice</h5>
-                <p class="card-text">AllSpice is a full-stack recipe management application built with a VueJs front end and .Net back end. Users are able to create an account and login, browse recipes added by others and add their own. Instructions and ingredients can be added to recipes, and users can favorite recipes to save them.</p>
-                <a href="https://github.com/AndrewAllison2/Allspice">View Github Repo</a>
-              </div>
-            </div>
-          </div>
-        </div>
+        <h2 class="fs-1 text-white text-center">APPLICATIONS</h2>
+        <AppComponent />
+        
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import AppComponent from "../components/AppComponent.vue";
+
 export default {
-  setup() {
-    return {}
-  }
+    setup() {
+        return {};
+    },
+    components: { AppComponent }
 }
 </script>
 
@@ -55,7 +48,6 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
   background-attachment: fixed;
 }
 </style>

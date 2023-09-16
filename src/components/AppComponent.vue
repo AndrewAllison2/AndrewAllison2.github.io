@@ -1,0 +1,50 @@
+<template>
+          <div>
+          <div class="col-12 d-flex">
+            <div class="card" style="width: 22rem;">
+              <img src="https://codeworks.blob.core.windows.net/public/assets/img/projects/AllSpicePoster.jpg" class="card-img-top" alt="AllSpice">
+              <div class="card-body text-center">
+                <h5 class="card-title">AllSpice</h5>
+                <p class="card-text">AllSpice is a full-stack recipe management application built with a VueJs front end and .Net back end. Users are able to create an account and login, browse recipes added by others and add their own. Instructions and ingredients can be added to recipes, and users can favorite recipes to save them.</p>
+                <a class="text-center" href="https://github.com/AndrewAllison2/Allspice">View Github Repo</a>
+              </div>
+            </div>
+
+            <div class="card ms-2" style="width: 22rem;">
+              <img src="https://figmage.com/images/KndD8m4gDG7hjt1xgq5lo.jpg" class="card-img-top" alt="Keepr">
+              <div class="card-body text-center">
+                <h5 class="card-title">Keepr</h5>
+                <p class="card-text">Keepr is a pintrest style application where users can browse pictures called Keeps. Logged in users can create keeps and vaults, and are able to save Keeps within their public or private vaults. All users have a profile page where their vaults and keeps are displayed, and an account page where they can update their information and view keeps they've created.</p>
+                <a class="text-center" href="https://github.com/AndrewAllison2/keepr">View Github Repo</a>
+              </div>
+            </div>
+
+            <div class="card ms-2" style="width: 22rem;">
+              <img src="https://figmage.com/images/KndD8m4gDG7hjt1xgq5lo.jpg" class="card-img-top" alt="Keepr">
+              <div class="card-body text-center">
+                <h5 class="card-title">Devs and Dragons</h5>
+                <p class="card-text">Devs and Dragons is a D&D Campaign management application that allows players to easily track and coordinate the status of their game. It was built in a team of five devolpers over the course of two weeks using a VueJs front end and NodeJs back end. This application also integrates the D&D api in the form of a search funtion present in each campaign.</p>
+                <a class="text-center" href="https://github.com/AndrewAllison2/devs_and_dragons">View Github Repo</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+</template>
+
+
+<script>
+export default {
+  setup(){
+    return {}
+  }
+}
+</script>
+
+
+<style lang="scss" scoped>
+img {
+  height: 10em;
+  object-fit: cover;
+}
+</style>
