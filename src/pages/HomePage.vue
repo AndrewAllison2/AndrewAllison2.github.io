@@ -24,7 +24,13 @@
 
       <div class="row">
         <h2 class="fs-1 text-white text-center mb-5">APPLICATIONS</h2>
-        <AppComponent />
+        <!-- <AppComponent /> -->
+        <div class="col-12">
+
+          <div class="pb-5">
+            <img class="img-fluid dd-img" src='../assets/img/Screenshot (2).png' alt="Devs and Dragons">
+          </div>
+        </div>
         
       </div>
     </div>
@@ -49,5 +55,12 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.dd-img {
+  width: 33em;
+  object-fit: cover;
+  position: relative;
+  right: -4em;
 }
 </style>
