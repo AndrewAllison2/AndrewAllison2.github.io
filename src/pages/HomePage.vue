@@ -6,7 +6,7 @@
         <div class="col-6">
           <div class="ms-5 mt-5">
             <h1 class="fs-5 text-white">Hi, I'm Andrew</h1>
-            <h1 class="fs-3 text-white">A full-stack <span class="fs-1 text-warning">Software Developer</span> </h1>
+            <h1 class="fs-3 text-white">A full-stack <span class="fs-1 text-warning">Software Developer</span> who loves designing intutive UI.</h1>
           </div>
         </div>
 
@@ -23,7 +23,7 @@
       </div>
 
       <div class="row">
-        <h2 class="fs-1 text-white text-center">APPLICATIONS</h2>
+        <h2 class="fs-1 text-white text-center mb-5">APPLICATIONS</h2>
         <AppComponent />
         
       </div>

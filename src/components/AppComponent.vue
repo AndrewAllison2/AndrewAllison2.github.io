@@ -1,6 +1,6 @@
 <template>
           <div>
-          <div class="col-12 d-flex">
+          <div class="col-12 d-flex justify-content-around">
             <div class="card" style="width: 22rem;">
               <img src="https://codeworks.blob.core.windows.net/public/assets/img/projects/AllSpicePoster.jpg" class="card-img-top" alt="AllSpice">
               <div class="card-body text-center">
@@ -10,7 +10,7 @@
               </div>
             </div>
 
-            <div class="card ms-2" style="width: 22rem;">
+            <div class="card ms-3" style="width: 22rem;">
               <img src="https://figmage.com/images/KndD8m4gDG7hjt1xgq5lo.jpg" class="card-img-top" alt="Keepr">
               <div class="card-body text-center">
                 <h5 class="card-title">Keepr</h5>
@@ -19,7 +19,7 @@
               </div>
             </div>
 
-            <div class="card ms-2" style="width: 22rem;">
+            <div class="card ms-3" style="width: 22rem;">
               <img src='../assets/img/Screenshot (2).png' class="card-img-top" alt="Devs and Dragons">
               <div class="card-body text-center">
                 <h5 class="card-title">Devs and Dragons</h5>
@@ -28,7 +28,7 @@
               </div>
             </div>
 
-            <div class="card ms-2" style="width: 22rem;">
+            <div class="card ms-3" style="width: 22rem;">
               <img src='https://images.unsplash.com/photo-1612358405970-e1aeba9d76c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=500&q=80' class="card-img-top" alt="Tower">
               <div class="card-body text-center">
                 <h5 class="card-title">Tower</h5>
