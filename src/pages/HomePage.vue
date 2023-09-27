@@ -75,27 +75,43 @@
           </div>
         </div>
 
-        <a class="btn btn-primary dnd-btn" href="https://github.com/AndrewAllison2/devs_and_dragons" title="To GitHub/Devs&Dragons" role="button">View Code</a>
+        <div class="text-center">
+          <a class="btn btn-primary dnd-btn" href="https://github.com/AndrewAllison2/devs_and_dragons" title="To GitHub/Devs&Dragons" role="button">View Devs & Dragons Code</a>
+        </div>
       </div>
 
       <!-- SECTION Keepr -->
-      <div class="row">
+      <div class="row mt-3">
         <h1 class="text-center mb-3 text-white">Keepr</h1>
-        <div class="col-5 m-auto keepr-home-container">
+        <div class="col-4 m-auto keepr-home-container">
           <div>
             <img class="img-fluid keepr-home" src="https://figmage.com/images/KndD8m4gDG7hjt1xgq5lo.jpg" alt="Keepr Picture">
             <div class="overlay-keepr-home">
-              <p class="keepr-home-text">
+              <p class="keepr-home-text p-4 fs-5">
                 Keepr is a full stack web application similar to Pintrest. I built this over one week using a VueJs front end and a .Net/MySQL backend. It also incoorporates Auth0 to handle user authentication. The API was tested thoroughly with Postman, while the front end was tested for accessibility and best practices with Lighthouse. This application was also fully optimized for mobile screen sizes.
               </p>
             </div>
           </div>
         </div>
-        <div class="col-5"></div>
+        
+        <div class="col-4 m-auto keepr-home-container">
+          <div>
+            <img class="img-fluid keepr-home" src="https://figmage.com/images/KndD8m4gDG7hjt1xgq5lo.jpg" alt="Keepr Picture">
+            <div class="overlay-keepr-home">
+              <p class="keepr-home-text p-4 fs-5">
+                Keepr is a full stack web application similar to Pintrest. I built this over one week using a VueJs front end and a .Net/MySQL backend. It also incoorporates Auth0 to handle user authentication. The API was tested thoroughly with Postman, while the front end was tested for accessibility and best practices with Lighthouse. This application was also fully optimized for mobile screen sizes.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-5">
+          <a class="btn btn-info keepr-btn" href="https://github.com/AndrewAllison2/keepr" title="To GitHub/Keepr" role="button">View Keepr Code</a>
+        </div>
       </div>
 
       <!-- SECTION AllSpice -->
-      <div class="row">
+      <div class="row mt-5">
 
       </div>
 
@@ -124,10 +140,10 @@ export default {
 }
 
 .dnd-btn {
-  width: 9em;
-  position: relative;
-  left: 43em;
-  top: -1em;
+  width: 14em;
+  // position: relative;
+  // left: 43em;
+  // top: -1em;
 }
 
 .dd-home-container {
@@ -177,8 +193,8 @@ export default {
   bottom: 0;
   left: 10px;
   right: 0;
-  height: 85%;
-  width: 95.7%;
+  height: 100%;
+  width: 96%;
   opacity: 0;
   transition: .5s ease;
   background-color: #272727;
@@ -192,6 +208,7 @@ export default {
 .keepr-home-text {
   color: white;
   position:absolute;
+  text-align: center;
 }
 
 
