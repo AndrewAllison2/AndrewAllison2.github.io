@@ -69,7 +69,7 @@
           <div class="pb-5">
             <img class="img-fluid dd-home-img" src='../assets/img/Screenshot (2).png' alt="Devs and Dragons">
             <div class="overlay-dd-home">
-              <p class=" home-text p-3">Devs and Dragons is a D&D campaign management application that helps players seamlessly manage and track their adventures in their game. Built by a team of five developers over the course of two weeks, this application was built with a VueJs front end and a NodeJS/Express back end. It integrates our own API as well as the official D&D API, which were both tested with Postman. This application utilizes a variey of technologies, an intutive and flexible UI, and was built with the potential for scaling in mind.
+              <p class=" dd-home-text p-3">Devs and Dragons is a D&D campaign management application that helps players seamlessly manage and track their adventures in their game. Built by a team of five developers over the course of two weeks, this application was built with a VueJs front end and a NodeJS/Express back end. It integrates our own API as well as the official D&D API, which were both tested with Postman. This application utilizes a variey of technologies, an intutive and flexible UI, and was built with the potential for scaling in mind.
               </p>
             </div>
           </div>
@@ -81,9 +81,14 @@
       <!-- SECTION Keepr -->
       <div class="row">
         <h1 class="text-center mb-3 text-white">Keepr</h1>
-        <div class="col-5 m-auto keepr-container">
+        <div class="col-5 m-auto keepr-home-container">
           <div>
             <img class="img-fluid keepr-home" src="https://figmage.com/images/KndD8m4gDG7hjt1xgq5lo.jpg" alt="Keepr Picture">
+            <div class="overlay-keepr-home">
+              <p class="keepr-home-text">
+                Keepr is a full stack web application similar to Pintrest. I built this over one week using a VueJs front end and a .Net/MySQL backend. It also incoorporates Auth0 to handle user authentication. The API was tested thoroughly with Postman, while the front end was tested for accessibility and best practices with Lighthouse. This application was also fully optimized for mobile screen sizes.
+              </p>
+            </div>
           </div>
         </div>
         <div class="col-5"></div>
@@ -152,18 +157,41 @@ export default {
   opacity: 1;
 }
 
-.home-text {
+.dd-home-text {
   color: white;
   position: absolute;
 }
 
-.keepr-container{
+.keepr-home-container{
   position: relative;
 }
 
 .keepr-home {
   object-fit: cover;
   border-radius: 5px;
+}
+
+.overlay-keepr-home {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  height: 85%;
+  width: 95.7%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #272727;
+  border-radius: 5px;
+}
+
+.keepr-home-container:hover .overlay-keepr-home {
+  opacity: 1;
+}
+
+.keepr-home-text {
+  color: white;
+  position:absolute;
 }
 
 
