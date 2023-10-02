@@ -93,7 +93,46 @@
         </div>
       </div>
 
+      <div class="row mt-3" id="AllSpice">
+      <div class="col-6">
+        <div class="ms-4 mb-5">
+          <img class="img-fluid allspice-img" src="https://codeworks.blob.core.windows.net/public/assets/img/projects/AllSpicePoster.jpg" alt="Keepr">
+        </div>
+      </div>
 
+      <div class="col-6">
+        <div class="me-4 mb-3 text-center text-white">
+          <h3>AllSpice</h3>
+          <p>A full stack recipe management web application I built over the course of a week. Similar to recipe apps
+            from Home Chef or Dinnerly, users are able to create recipes once logged in. They can add ingredients and
+            preperation instructions, save their favorite recipes, and filter recipes by type.
+            User authentication is handled by auth0, requiring an account to create or save any recipes or ingredients.
+            Recipes can still be viewed without an account.
+          </p>
+
+          <p>This application was built using a Vue.Js front end and a .Net/MySQL back end, and the API was tested
+            with Postman.</p>
+        </div>
+
+        <div class="sm-h-line mt-4"></div>
+
+        <div class="d-flex justify-content-between align-items-center mx-2 mt-4">
+          <img class="img-fluid html-icon2" src="https://cdn3d.iconscout.com/3d/free/thumb/free-html-5728485-4781249.png" alt="HTML" title="HTML5">
+          <img class="img fluid css-icon2" src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="CSS" title="CSS3">
+          <img class="img fluid js-icon2" src="https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png" alt="JavaScript" title="JavaScript">
+          <img class="img fluid vue-icon2" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/367_Vuejs_logo-512.png" alt="VueJs" title="VueJs">
+          <img class="img fluid mysql-icon" src="https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-512.png" alt="MySQL" title="MySQL">
+          <img class="img fluid csharp-icon" src="https://www.freeiconspng.com/uploads/c-logo-icon-18.png" alt="C#" title="C#">
+        </div>
+
+        </div>
+      </div>
+
+    <div class="row">
+      <div class="col-12 m-auto my-5">
+        <div class="h-line"></div>
+      </div>
+    </div>
 
   </div>
 </template>
@@ -165,6 +204,12 @@ export default {
 
 
 .keepr-img {
+  height: 25em;
+  width: 100%;
+  object-fit: cover;
+}
+
+.allspice-img {
   height: 25em;
   width: 100%;
   object-fit: cover;
