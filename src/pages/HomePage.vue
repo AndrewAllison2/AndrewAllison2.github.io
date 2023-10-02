@@ -1,5 +1,7 @@
 <template>
   <div class="container-fluid bg-black">
+
+
     <div class="row mb-5">
       <div class="col-10 m-auto mt-5 me-5">
         <div class="mt-5 ms-5 text-white">
@@ -8,6 +10,14 @@
         </div>
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-10 m-auto my-5">
+        <div class="h-line"></div>
+      </div>
+    </div>
+
+
   </div>
 </template>
 
@@ -24,8 +34,10 @@ export default {
 
 <style scoped lang="scss">
 
-.container {
-
+.h-line {
+  height: 1px;
+  width: 100%;
+  background: white;
 }
 
 
