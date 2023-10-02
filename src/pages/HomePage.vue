@@ -140,28 +140,28 @@
     </div>
 
     <div class="row">
-      <h3 class="fs-1 text-white text-center">Get In Touch</h3>
-
+      <!-- TODO set up formsubmit path to send emails to me -->
       <div class="col-8 m-auto">
-        <div class="form card p-4 ms-5 mt-2">
-          <form action="https://formsubmit.co/andrewallison5211@gmail.com" method="POST">
+        <div class="form card p-4 ms-5 mt-1 mb-5">
+          <h3 class="fs-1 text-black text-center mb-4">Get In Touch</h3>
+          <form action="https://formsubmit.co/7821106b1e4ce3ae17cfdca1e845b808" method="POST">
             <div class="row">
               <div class="col form-floating mb-3">
-                <input type="text" class="form-control" id="firstName" placeholder="First Name" aria-label="First name">
+                <input type="text" class="form-control" id="firstName" required placeholder="First Name" aria-label="First name">
                 <label class="ms-2" for="firstName">First Name</label>
               </div>
               <div class="col form-floating mb-3">
-                <input type="text" class="form-control" id="lastName" placeholder="Last Name" aria-label="Last name">
+                <input type="text" class="form-control" id="lastName" required placeholder="Last Name" aria-label="Last name">
                 <label class="ms-2" for="lastName">Last Name</label>
               </div>
             </div>
             <div class="col form-floating mb-3">
-              <input type="email" class="form-control" id="emailaddress" placeholder="name@example.com">
+              <input type="email" class="form-control" id="emailaddress" required placeholder="name@example.com">
               <label for="emailaddress">Email address</label>
             </div>
             <div class="mb-3">
               <!-- <label for="exampleFormControlTextarea1" class="form-label">Message</label> -->
-              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="5"></textarea>
+              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="5" required></textarea>
             </div>
 
               <button class="btn btn-primary">Send</button>
@@ -170,7 +170,8 @@
       </div>
 
       <div class="col-4">
-        <GlowingIcons />
+        <h3 class="fs-1 text-white">Connect</h3>
+        
       </div>
     </div>
 
