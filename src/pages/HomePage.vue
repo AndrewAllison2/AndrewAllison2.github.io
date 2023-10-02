@@ -29,14 +29,8 @@
       </div>
     </div>
 
-    <div>
-      <router-view>
-        
-      </router-view>
-    </div>
-
 <!-- NOTE have it cycle through multiple imgs of apps here would be cool -->
-    <div class="row mt-3">
+    <div class="row mt-3" id="devs&dragons">
       <div class="col-6">
         <div class="ms-4 mb-5">
           <img class="img-fluid" src="../assets/img/Screenshot (2).png" alt="Devs & Dragons">
@@ -62,6 +56,43 @@
         </div>
       </div>
     </div>
+
+        <div class="row mt-3" id="keepr">
+      <div class="col-6">
+        <div class="ms-4 mb-5">
+          <img class="img-fluid keepr-img" src="https://figmage.com/images/KndD8m4gDG7hjt1xgq5lo.jpg" alt="Keepr">
+        </div>
+      </div>
+
+      <div class="col-6">
+        <div class="me-4 mb-3 text-center text-white">
+          <h3>Keepr</h3>
+          <p>A full-stack web application similar to Pintrest I built over the course of a week. Users are able to upload
+            and share photos, save them in public and private vaults, and display their favorites on their profile page.
+            This application utilizes an auth0 authenticator, requiring users to create an account and login to upload
+            and save photos. Users can still browse public photos and vaults without logging in.
+          </p>
+
+          <p>This application was built with a Vue.Js front end and a .Net/MySQL back end, and included API testing
+            with Postman, mobile optimization, and accessibility/best practices testing with Lighthouse.</p>
+
+
+        </div>
+
+        <div class="sm-h-line mt-4"></div>
+
+        <div class="d-flex justify-content-between align-items-center mx-2 mt-4">
+          <img class="img-fluid html-icon2" src="https://cdn3d.iconscout.com/3d/free/thumb/free-html-5728485-4781249.png" alt="HTML" title="HTML5">
+          <img class="img fluid css-icon2" src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="CSS" title="CSS3">
+          <img class="img fluid js-icon2" src="https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png" alt="JavaScript" title="JavaScript">
+          <img class="img fluid vue-icon2" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/367_Vuejs_logo-512.png" alt="VueJs" title="VueJs">
+          <img class="img fluid mysql-icon" src="https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-512.png" alt="MySQL" title="MySQL">
+          <img class="img fluid csharp-icon" src="https://www.freeiconspng.com/uploads/c-logo-icon-18.png" alt="C#" title="C#">
+        </div>
+
+        </div>
+      </div>
+
 
 
   </div>
@@ -95,21 +126,48 @@ export default {
 .html-icon {
   height: 8em;
 }
+.html-icon2 {
+  height: 6em;
+}
 
 .css-icon {
   height: 8em;
+}
+.css-icon2 {
+  height: 6em;
 }
 
 .js-icon {
   height: 8em;
 }
+.js-icon2 {
+  height: 6em;
+}
 
 .vue-icon {
   height: 8em;
 }
+.vue-icon2 {
+  height: 6em;
+}
 
 .node-icon {
   height: 7em;
+}
+
+.mysql-icon {
+  height: 6em;
+}
+
+.csharp-icon {
+  height: 6em;
+}
+
+
+.keepr-img {
+  height: 25em;
+  width: 100%;
+  object-fit: cover;
 }
 
 
