@@ -1,6 +1,11 @@
 <template>
   <div class="container-fluid bg-black">
 
+    <div class="row">
+      <div class="mt-4 text-end">
+        <GlowingIcons />
+      </div>
+    </div>
 
     <div class="row mb-5">
       <div class="col-10 m-auto mt-5 me-5">
@@ -138,8 +143,16 @@
       <h3 class="fs-1 text-white text-center">Get In Touch</h3>
 
       <div class="col-8 m-auto">
-        <div class="form card p-4 ms-5">
+        <div class="form card p-4 ms-5 mt-2">
           <form action="">
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="First Name" aria-label="First name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Last Name" aria-label="Last name">
+              </div>
+            </div>
             <div class="form-floating mb-3">
               <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
               <label for="floatingInput">Email address</label>
@@ -148,7 +161,9 @@
         </div>
       </div>
 
-      <div class="col-4"></div>
+      <div class="col-4">
+        <GlowingIcons />
+      </div>
     </div>
 
   </div>
