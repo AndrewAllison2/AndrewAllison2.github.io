@@ -3,18 +3,13 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-6">
+        <div class="col-6 m-auto">
           <div class="ms-5 mt-5">
-            <h1 class="fs-5 text-white">Hi, I'm Andrew</h1>
+            <h1 class="fs-5 text-white text-center">Hi, I'm Andrew</h1>
             <h1 class="fs-3 text-white">A full-stack <span class="fs-1 text-warning">Software Developer</span> who loves designing intutive UI.</h1>
           </div>
         </div>
 
-        <div class="col-6">
-          <div>
-            <!-- <img class="avatar" src="../assets/img/Professional Photo.jpg" alt="Andrew Allison"> -->
-          </div>
-        </div>
 
       </div>
 
