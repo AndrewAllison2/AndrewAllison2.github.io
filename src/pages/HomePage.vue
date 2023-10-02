@@ -134,6 +134,23 @@
       </div>
     </div>
 
+    <div class="row">
+      <h3 class="fs-1 text-white text-center">Get In Touch</h3>
+
+      <div class="col-8 m-auto">
+        <div class="form card p-4 ms-5">
+          <form action="">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="col-4"></div>
+    </div>
+
   </div>
 </template>
 
@@ -213,6 +230,10 @@ export default {
   height: 25em;
   width: 100%;
   object-fit: cover;
+}
+
+.form {
+  width: 60%;
 }
 
 
