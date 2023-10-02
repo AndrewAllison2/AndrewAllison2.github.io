@@ -29,6 +29,12 @@
       </div>
     </div>
 
+    <div>
+      <router-view>
+        
+      </router-view>
+    </div>
+
 <!-- NOTE have it cycle through multiple imgs of apps here would be cool -->
     <div class="row mt-3">
       <div class="col-6">
@@ -38,7 +44,7 @@
       </div>
 
       <div class="col-6">
-        <div class="me-4 mb-5 text-center text-white">
+        <div class="me-4 mb-3 text-center text-white">
           <h3>Devs & Dragons</h3>
           <p>Devs & Dragons is a DnD campaign management application designed to create seamless coordination between players. This application was built over the course of two weeks by a team of five developers. Our build process included the design and utilization of our own Figma mocks, data UML, and Trello board, and heavy coordination and collaboration across the back and front end.  </p>
 
@@ -47,7 +53,7 @@
 
         <div class="sm-h-line"></div>
 
-        <div class="d-flex justify-content-between align-items-center mx-2">
+        <div class="d-flex justify-content-between align-items-center mx-2 mt-4">
           <img class="img-fluid html-icon" src="https://cdn3d.iconscout.com/3d/free/thumb/free-html-5728485-4781249.png" alt="HTML" title="HTML5">
           <img class="img fluid css-icon" src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="CSS" title="CSS3">
           <img class="img fluid js-icon" src="https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png" alt="JavaScript" title="JavaScript">
