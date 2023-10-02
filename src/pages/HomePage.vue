@@ -144,19 +144,27 @@
 
       <div class="col-8 m-auto">
         <div class="form card p-4 ms-5 mt-2">
-          <form action="">
+          <form action="https://formsubmit.co/andrewallison5211@gmail.com" method="POST">
             <div class="row">
-              <div class="col">
-                <input type="text" class="form-control" placeholder="First Name" aria-label="First name">
+              <div class="col form-floating mb-3">
+                <input type="text" class="form-control" id="firstName" placeholder="First Name" aria-label="First name">
+                <label class="ms-2" for="firstName">First Name</label>
               </div>
-              <div class="col">
-                <input type="text" class="form-control" placeholder="Last Name" aria-label="Last name">
+              <div class="col form-floating mb-3">
+                <input type="text" class="form-control" id="lastName" placeholder="Last Name" aria-label="Last name">
+                <label class="ms-2" for="lastName">Last Name</label>
               </div>
             </div>
-            <div class="form-floating mb-3">
-              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-              <label for="floatingInput">Email address</label>
+            <div class="col form-floating mb-3">
+              <input type="email" class="form-control" id="emailaddress" placeholder="name@example.com">
+              <label for="emailaddress">Email address</label>
             </div>
+            <div class="mb-3">
+              <!-- <label for="exampleFormControlTextarea1" class="form-label">Message</label> -->
+              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="5"></textarea>
+            </div>
+
+              <button class="btn btn-primary">Send</button>
           </form>
         </div>
       </div>
