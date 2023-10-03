@@ -169,10 +169,14 @@
         </div>
       </div>
 
-      <div class="col-4">
-        <h3 class="fs-1 text-white">Connect</h3>
-        
+      <div class="col-4 text-white">
+        <div class="">
+          <h3 class="fs-1 ms-5">Connect</h3>
+          <GlowingIcons />
+        </div>
       </div>
+
+
     </div>
 
   </div>
@@ -257,7 +261,7 @@ export default {
 }
 
 .form {
-  width: 60%;
+  width: 80%;
 }
 
 
