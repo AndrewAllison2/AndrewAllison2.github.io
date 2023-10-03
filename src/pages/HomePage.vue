@@ -139,6 +139,29 @@
       </div>
     </div>
 
+    <!-- SECTION ABOUT ME -->
+
+    <div class="row">
+      <div class="col-5 text-center">
+        <img class="img-fluid avatar" src="../assets/img/Professional Photo.jpg" alt="Andrew Allison">
+      </div>
+
+      <div class="col-5 text-center">
+        <div class="text-white">
+          <h3 class="fs-3">About Me</h3>
+          <p class="mt-3">Hi. I'm a software developer based in Boise, Idaho. I attended </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 m-auto my-5">
+        <div class="h-line"></div>
+      </div>
+    </div>
+
+    <!-- SECTION FORM -->
+
     <div class="row">
       <!-- TODO set up formsubmit path to send emails to me -->
       <div class="col-6 m-auto">
@@ -259,6 +282,13 @@ export default {
 .allspice-img {
   height: 25em;
   width: 100%;
+  object-fit: cover;
+}
+
+.avatar {
+  height: 20em;
+  width: 20em;
+  border-radius: 50%;
   object-fit: cover;
 }
 
