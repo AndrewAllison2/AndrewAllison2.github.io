@@ -170,9 +170,9 @@
       </div>
 
       <div class="col-6 text-white">
-        <div class="">
+        <div>
           <h3 class="fs-1 text-center">Connect</h3>
-          <div class="mt-5">
+          <div class="mt-3">
             <GlowingIcons />
           </div>
         </div>

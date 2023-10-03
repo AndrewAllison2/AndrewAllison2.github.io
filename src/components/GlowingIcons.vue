@@ -27,6 +27,7 @@ export default {
 #phone,
 #twitter {
   display: block;
+  width: 60%;
   background-color: #18191f;
   color: #fff;
   box-shadow: 2px 2px 2px #00000080, 
