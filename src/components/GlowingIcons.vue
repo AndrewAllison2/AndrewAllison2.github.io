@@ -1,8 +1,8 @@
 <template>
 
-  <div>
-          <a class="mdi mdi-github fs-5" id="github" title="Github" href="https://github.com/AndrewAllison2"></a>
-          <a class="mdi mdi-linkedin fs-5" id="linkedin" title="LinkedIn" href="https://www.linkedin.com/in/andrew-allison-91a213288/"></a>
+  <div class="">
+          <a class="mdi mdi-github fs-1" id="github" title="Github" href="https://github.com/AndrewAllison2"></a>
+          <a class="mdi mdi-linkedin fs-1" id="linkedin" title="LinkedIn" href="https://www.linkedin.com/in/andrew-allison-91a213288/"></a>
           <!-- <a class="mdi mdi-email fs-5" id="email" title="E-Mail" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBnqHwtwrPxWvdnzlFBHmqjthwCzJgtdGxTglFWvndKqFzhLCwBprgmPTXsDrGNhctjRTsr"></a>-->
         </div>
 

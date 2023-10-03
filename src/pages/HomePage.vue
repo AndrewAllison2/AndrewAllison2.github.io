@@ -172,7 +172,9 @@
       <div class="col-4 text-white">
         <div class="">
           <h3 class="fs-1 ms-5">Connect</h3>
-          <GlowingIcons />
+          <div class="mt-5">
+            <GlowingIcons />
+          </div>
         </div>
       </div>
 
