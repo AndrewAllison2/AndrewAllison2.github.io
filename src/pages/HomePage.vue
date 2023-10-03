@@ -3,7 +3,7 @@
 
     <div class="row">
       <div class="mt-4 text-end">
-        <GlowingIcons />
+        <!-- <GlowingIcons /> -->
       </div>
     </div>
 
@@ -141,7 +141,7 @@
 
     <div class="row">
       <!-- TODO set up formsubmit path to send emails to me -->
-      <div class="col-8 m-auto">
+      <div class="col-6 m-auto">
         <div class="form card p-4 ms-5 mt-1 mb-5">
           <h3 class="fs-1 text-black text-center mb-4">Get In Touch</h3>
           <form action="https://formsubmit.co/7821106b1e4ce3ae17cfdca1e845b808" method="POST">
@@ -169,9 +169,9 @@
         </div>
       </div>
 
-      <div class="col-4 text-white">
+      <div class="col-6 text-white">
         <div class="">
-          <h3 class="fs-1 ms-5">Connect</h3>
+          <h3 class="fs-1 text-center">Connect</h3>
           <div class="mt-5">
             <GlowingIcons />
           </div>
@@ -263,7 +263,7 @@ export default {
 }
 
 .form {
-  width: 80%;
+  width: 90%;
 }
 
 

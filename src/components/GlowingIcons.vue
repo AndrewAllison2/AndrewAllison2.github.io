@@ -1,9 +1,10 @@
 <template>
 
   <div class="">
-          <a class="mdi mdi-github fs-1" id="github" title="Github" href="https://github.com/AndrewAllison2"></a>
-          <a class="mdi mdi-linkedin fs-1" id="linkedin" title="LinkedIn" href="https://www.linkedin.com/in/andrew-allison-91a213288/"></a>
-          <!-- <a class="mdi mdi-email fs-5" id="email" title="E-Mail" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBnqHwtwrPxWvdnzlFBHmqjthwCzJgtdGxTglFWvndKqFzhLCwBprgmPTXsDrGNhctjRTsr"></a>-->
+    <a class="mdi mdi-email fs-1 my-3 d-flex align-items-center" id="email" title="E-Mail"> <span class="fs-4"> : andrewallison5211@gmail.com</span></a>
+    <a class="mdi mdi-phone fs-1 my-3 d-flex align-items-center" id="phone" title="Phone"> <span class="fs-4"> : 208-869-5211</span></a>
+          <a class="mdi mdi-github fs-1 my-3" id="github" title="Github" href="https://github.com/AndrewAllison2"> <span class="fs-4"> : Github</span></a>
+          <a class="mdi mdi-linkedin fs-1 my-3" id="linkedin" title="LinkedIn" href="https://www.linkedin.com/in/andrew-allison-91a213288/"> <span class="fs-4"> : LinkedIn</span></a>
         </div>
 
 </template>
@@ -23,8 +24,9 @@ export default {
 #github,
 #linkedin,
 #email,
-#instagram,
+#phone,
 #twitter {
+  display: block;
   background-color: #18191f;
   color: #fff;
   box-shadow: 2px 2px 2px #00000080, 
@@ -55,7 +57,7 @@ export default {
 #email{
   animation-delay: 01.2s;
 }
-#instagram{
+#phone{
   animation-delay: 0.1s;
 }
 #twitter{
