@@ -149,7 +149,7 @@
       <div class="col-5 text-center">
         <div class="text-white">
           <h3 class="fs-3">About Me</h3>
-          <p class="mt-3">Hi. I'm a software developer based in Boise, Idaho. I attended </p>
+          <p class="mt-3">Hi. I'm a software developer based in Boise, Idaho.</p>
         </div>
       </div>
     </div>
@@ -208,13 +208,15 @@
 </template>
 
 <script>
+import { ref } from "vue";
+
 
 
 export default {
 
   
   setup() {
-    
+    const activeApp = ref('')
 
 
     
