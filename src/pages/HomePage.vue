@@ -322,10 +322,10 @@ export default {
   width: 90%;
 }
 
-.icons {
-  position: relative;
-  left: 9em;
-}
+// .icons {
+//   position: relative;
+//   left: 4em;
+// }
 
 
 

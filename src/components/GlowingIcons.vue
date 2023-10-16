@@ -1,11 +1,16 @@
 <template>
-
-  <div class="text-center">
-    <a class="mdi mdi-email fs-1 my-3 d-flex align-items-center" id="email" title="E-Mail"> <span class="fs-4"> : andrewallison5211@gmail.com</span></a>
-    <a class="mdi mdi-phone fs-1 my-3 d-flex align-items-center" id="phone" title="Phone"> <span class="fs-4"> : 208-869-5211</span></a>
-          <a class="mdi mdi-github fs-1 my-3" id="github" title="Github" href="https://github.com/AndrewAllison2"> <span class="fs-4"> : Github</span></a>
-          <a class="mdi mdi-linkedin fs-1 my-3" id="linkedin" title="LinkedIn" href="https://www.linkedin.com/in/andrew-allison-91a213288/"> <span class="fs-4"> : LinkedIn</span></a>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <div class="text-center align-content-center">
+          <a class="mdi mdi-email fs-2 my-3" id="email" title="E-Mail"> <span class="fs-5"> : andrewallison5211@gmail.com</span></a>
+          <a class="mdi mdi-phone fs-2 my-3" id="phone" title="Phone"> <span class="fs-4"> : 208-869-5211</span></a>
+          <a class="mdi mdi-github fs-2 my-3" id="github" title="Github" href="https://github.com/AndrewAllison2"> <span class="fs-4"> : Github</span></a>
+          <a class="mdi mdi-linkedin fs-2 my-3" id="linkedin" title="LinkedIn" href="https://www.linkedin.com/in/andrew-allison-91a213288/"> <span class="fs-4"> : LinkedIn</span></a>
         </div>
+      </div>
+    </div>
+  </div>
 
 </template>
 
@@ -27,7 +32,7 @@ export default {
 #phone,
 #twitter {
   display: block;
-  width: 60%;
+  width: 12em;
   background-color: #18191f;
   color: #fff;
   box-shadow: 2px 2px 2px #00000080, 
