@@ -1,6 +1,6 @@
 <template>
 
-  <div class="">
+  <div class="text-center">
     <a class="mdi mdi-email fs-1 my-3 d-flex align-items-center" id="email" title="E-Mail"> <span class="fs-4"> : andrewallison5211@gmail.com</span></a>
     <a class="mdi mdi-phone fs-1 my-3 d-flex align-items-center" id="phone" title="Phone"> <span class="fs-4"> : 208-869-5211</span></a>
           <a class="mdi mdi-github fs-1 my-3" id="github" title="Github" href="https://github.com/AndrewAllison2"> <span class="fs-4"> : Github</span></a>

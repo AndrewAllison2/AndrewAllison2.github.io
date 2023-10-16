@@ -62,6 +62,12 @@
       </div>
     </div>
 
+        <div class="row">
+          <div class="col-12 m-auto my-5">
+            <div class="full-h-line"></div>
+          </div>
+        </div>
+
         <div class="row mt-3" id="keepr">
       <div class="col-6">
         <div class="ms-4 mb-5">
@@ -98,6 +104,12 @@
         </div>
       </div>
 
+        <div class="row">
+          <div class="col-12 m-auto my-5">
+            <div class="full-h-line"></div>
+          </div>
+        </div>
+
       <div class="row mt-3" id="AllSpice">
       <div class="col-6">
         <div class="ms-4 mb-5">
@@ -105,7 +117,7 @@
         </div>
       </div>
 
-      <div class="col-6">
+      <div class="col-6 mt-5">
         <div class="me-4 mb-3 text-center text-white">
           <h3>AllSpice</h3>
           <p>A full stack recipe management web application I built over the course of a week. Similar to recipe apps
@@ -133,11 +145,11 @@
         </div>
       </div>
 
-    <div class="row">
-      <div class="col-12 m-auto my-5">
-        <div class="h-line"></div>
-      </div>
-    </div>
+        <div class="row">
+          <div class="col-12 m-auto my-5">
+            <div class="full-h-line"></div>
+          </div>
+        </div>
 
     <!-- SECTION ABOUT ME -->
 
@@ -195,7 +207,7 @@
       <div class="col-6 text-white">
         <div>
           <h3 class="fs-1 text-center">Connect</h3>
-          <div class="mt-3">
+          <div class="mt-3 icons">
             <GlowingIcons />
           </div>
         </div>
@@ -229,6 +241,12 @@ export default {
 <style scoped lang="scss">
 
 .h-line {
+  height: 1px;
+  width: 100%;
+  background: white;
+}
+
+.full-h-line {
   height: 1px;
   width: 100%;
   background: white;
@@ -302,6 +320,11 @@ export default {
 
 .form {
   width: 90%;
+}
+
+.icons {
+  position: relative;
+  left: 9em;
 }
 
 
