@@ -207,7 +207,7 @@
       <div class="col-6 text-white">
         <div>
           <h3 class="fs-1 text-center">Connect</h3>
-          <div class="mt-3 icons">
+          <div class="mt-3 justify-content-center">
             <GlowingIcons />
           </div>
         </div>
