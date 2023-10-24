@@ -1,17 +1,19 @@
 <template>
-  <div class="container-fluid bg-black">
+  <div class="container-fluid">
 
-    <div class="row">
-      <div class="mt-4 text-end">
-        <!-- <GlowingIcons /> -->
+    <div class="background-img">
+      <div class="row">
+        <div class="mt-4 text-end">
+          <!-- <GlowingIcons /> -->
+        </div>
       </div>
-    </div>
-
-    <div class="row mb-5">
-      <div class="col-8 m-auto mt-5 me-5">
-        <div class="mt-5 ms-5 text-white typewriter">
-          <h1 class="fs-5">Hi, I'm Andrew</h1>
-            <h1 class="fs-5">A full stack <span class="fs-1 text-warning">Software Developer</span></h1>
+  
+      <div class="row mb-5">
+        <div class="col-8 m-auto mt-5 me-5">
+          <div class="mt-5 ms-5 text-black typewriter">
+            <h1 class="fs-5">Hi, I'm Andrew</h1>
+              <h1 class="fs-5">A full stack <span class="fs-1 text-info">Software Developer</span></h1>
+          </div>
         </div>
       </div>
     </div>
@@ -240,6 +242,12 @@ export default {
 
 <style scoped lang="scss">
 
+.background-img{
+  background-image: url('https://static.vecteezy.com/system/resources/previews/002/821/966/original/abstract-triangular-geometric-background-free-vector.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
 .h-line {
   height: 1px;
   width: 100%;
