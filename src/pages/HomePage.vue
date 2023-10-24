@@ -2,7 +2,7 @@
   <div class="container-fluid bg-black">
 
 <!-- SECTION HOME -->
-    <section id="#home">
+    <section id="home">
       <div class="background-img">
         <div class="row">
           <div class="mt-4 text-end">
@@ -23,7 +23,7 @@
 
 
 <!-- SECTION ABOUT -->
-    <section id="#about">
+    <section id="about">
       <div class="background-sec">
         <div class="row">
         <div class="col-5 text-center my-5">
