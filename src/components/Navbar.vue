@@ -1,10 +1,5 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark nav-background px-3 fixed-top">
-    <!-- <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
-      <div class="d-flex flex-column align-items-center">
-        <img alt="logo" src="../assets/img/cw-logo.png" height="45" />
-      </div>
-    </router-link> -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
       aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -12,7 +7,10 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto">
         <li>
-          <a class="btn text-success selectable text-uppercase" href="home">Home</a>
+          <a class="btn text-success selectable text-uppercase me-5 px-5" href="home">Home</a>
+          <a class="btn text-success selectable text-uppercase mx-5 px-5" href="about">About</a>
+          <a class="btn text-success selectable text-uppercase mx-5 px-5" href="applications">Applications</a>
+          <a class="btn text-success selectable text-uppercase mx-5 ps-5" href="contact">Contact</a>
             
           
         </li>

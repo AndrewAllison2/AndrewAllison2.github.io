@@ -1,6 +1,7 @@
 <template>
   <div class="container-fluid bg-black">
 
+<!-- SECTION HOME -->
     <section id="#home">
       <div class="background-img">
         <div class="row">
@@ -20,155 +21,161 @@
       </div>
     </section>
 
-    <div class="background-sec">
-      <div class="row">
-      <div class="col-5 text-center my-5">
-        <img class="img-fluid avatar" src="../assets/img/Professional Photo.jpg" alt="Andrew Allison">
+
+<!-- SECTION ABOUT -->
+    <section id="#about">
+      <div class="background-sec">
+        <div class="row">
+        <div class="col-5 text-center my-5">
+          <img class="img-fluid avatar" src="../assets/img/Professional Photo.jpg" alt="Andrew Allison">
+        </div>
+  
+        <div class="col-5 my-5">
+          <div class="text-white">
+            <h2 class="mb-4">About Me</h2>
+            <h5 class="mt-3 mb-3 font-italic">Hi, I'm Andrew!</h5>
+            <p>I'm a passionate creator with a knack for design and problem solving. I enjoy designing and building intuitve UI's, as well as dealing with complex logic and data management. I thouroghly enjoy being challenged and working through problems to find creative solutions.</p>
+            
+            <p>Some of my hobbies include writing music, traveling to new places, and spending time outdoors with my wife and our golden retriever. I love learning new things and expanding my knoweldge in fields that I find interesting.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+
+<!-- SECTION APPLICATIONS -->
+<section id="#applications">
+  <div class="background-third">
+    <div class="row">
+      <div class="col-8 m-auto my-5">
+        <h2 class="fs-1 app-text text-center">Applications</h2>
+      </div>
+    </div>
+
+<!-- NOTE have it cycle through multiple imgs of apps here would be cool -->
+    <div class="row mt-3" id="devs&dragons">
+      <div class="col-6">
+        <div class="ms-4 mb-5">
+          <img class="img-fluid" src="../assets/img/Screenshot (2).png" alt="Devs & Dragons">
+        </div>
       </div>
 
-      <div class="col-5 my-5">
-        <div class="text-white">
-          <h2 class="mb-4">About Me</h2>
-          <h5 class="mt-3 mb-3 font-italic">Hi, I'm Andrew!</h5>
-          <p>I'm a passionate creator with a knack for design and problem solving. I enjoy designing and building intuitve UI's, as well as dealing with complex logic and data management. I thouroghly enjoy being challenged and working through problems to find creative solutions.</p>
-          
-          <p>Some of my hobbies include writing music, traveling to new places, and spending time outdoors with my wife and our golden retriever. I love learning new things and expanding my knoweldge in fields that I find interesting.</p>
+      <div class="col-6">
+        <div class="me-4 mb-3 text-white">
+          <h3 class="text-center mb-3">Devs & Dragons</h3>
+          <p class="mb-4">A Dungeons & Dragons campaign management application built with a Vue.Js front
+          end and an Express/NodeJs back end that allows players to stay connected and coordinate their games.
+          </p>
+
+          <p class="mb-4">This application was built by a team of five developers utilizing Scrum and Agile practices to coordinate our organization and communication throughout the build process.</p>
+
+          <p class="mb-4">In addition to using MongoDB to store user data, this application also implements the D&D API to quickly and seamlessly provide
+          users with information on the vast number of items within the game</p>
+        </div>
+
+
+        <div class="sm-h-line"></div>
+
+        <div class="d-flex justify-content-between align-items-center mx-5 mt-4">
+          <img class="img fluid vue-icon" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/367_Vuejs_logo-512.png" alt="VueJs" title="VueJs">
+          <img class="img fluid node-icon" src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" alt="NodeJs" title="NodeJS/Express">
+          <img class="img fluid mongo-icon" src="https://icons-for-free.com/iconfiles/png/512/MongoDB-1329545826074381322.png" alt="MongoDB" title="MongoDB">
+          <img class="img fluid post-icon" src="https://www.svgrepo.com/show/354202/postman-icon.svg" alt="Postman" title="Postman">
         </div>
       </div>
     </div>
 
-    </div>
-
-    <div class="background-third">
-      <div class="row">
-        <div class="col-8 m-auto my-5">
-          <h2 class="fs-1 app-text text-center">Applications</h2>
-        </div>
-      </div>
-  
-  <!-- NOTE have it cycle through multiple imgs of apps here would be cool -->
-      <div class="row mt-3" id="devs&dragons">
-        <div class="col-6">
-          <div class="ms-4 mb-5">
-            <img class="img-fluid" src="../assets/img/Screenshot (2).png" alt="Devs & Dragons">
+        <div class="row">
+          <div class="col-12 m-auto my-5">
+            <div class="full-h-line"></div>
           </div>
         </div>
-  
-        <div class="col-6">
-          <div class="me-4 mb-3 text-white">
-            <h3 class="text-center mb-3">Devs & Dragons</h3>
-            <p class="mb-4">A Dungeons & Dragons campaign management application built with a Vue.Js front
-            end and an Express/NodeJs back end that allows players to stay connected and coordinate their games.
-            </p>
-  
-            <p class="mb-4">This application was built by a team of five developers utilizing Scrum and Agile practices to coordinate our organization and communication throughout the build process.</p>
 
-            <p class="mb-4">In addition to using MongoDB to store user data, this application also implements the D&D API to quickly and seamlessly provide
-            users with information on the vast number of items within the game</p>
-          </div>
-
-  
-          <div class="sm-h-line"></div>
-  
-          <div class="d-flex justify-content-between align-items-center mx-5 mt-4">
-            <img class="img fluid vue-icon" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/367_Vuejs_logo-512.png" alt="VueJs" title="VueJs">
-            <img class="img fluid node-icon" src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" alt="NodeJs" title="NodeJS/Express">
-            <img class="img fluid mongo-icon" src="https://icons-for-free.com/iconfiles/png/512/MongoDB-1329545826074381322.png" alt="MongoDB" title="MongoDB">
-            <img class="img fluid post-icon" src="https://www.svgrepo.com/show/354202/postman-icon.svg" alt="Postman" title="Postman">
-          </div>
-        </div>
-      </div>
-  
-          <div class="row">
-            <div class="col-12 m-auto my-5">
-              <div class="full-h-line"></div>
-            </div>
-          </div>
-  
-          <div class="row mt-3" id="keepr">
-            
-            <div class="col-6">
-              <div class="ms-4 mb-3 text-white">
-            <h3 class="text-center mb-3">Keepr</h3>
-            <p>An application similar to Pintrest built in Vue.Js, .Net, and MySQL where users can manage their keeps and vaults, and
-              share them with others.
-            </p>
-
-            <p>This application utilizes an Auth0 authenticator to verify and manage user accounts. The UI is updated
-                accordingly based upon a user’s authentication.
-                </p>
-
-            <p>Built independently, I preformed API testing with Postman, accessibility/best practices testing with
-              Lighthouse, and optimized the site for mobile view.
-            </p>
-            
-            <p></p>
-  
-            
-          </div>
+        <div class="row mt-3" id="keepr">
           
-          <div class="sm-h-line mt-4"></div>
-          
-          <div class="d-flex justify-content-between align-items-center mx-5 mt-4">
-              <img class="img fluid vue-icon2" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/367_Vuejs_logo-512.png" alt="VueJs" title="VueJs">
-              <img class="img fluid mysql-icon" src="https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-512.png" alt="MySQL" title="MySQL">
-              <img class="img fluid csharp-icon" src="https://www.freeiconspng.com/uploads/c-logo-icon-18.png" alt="C#" title="C#">
-              <img class="img fluid post-icon2" src="https://www.svgrepo.com/show/354202/postman-icon.svg" alt="Postman" title="Postman">
-            </div>
-            
-          </div>
           <div class="col-6">
-            <div class="me-4 mb-5">
-              <img class="img-fluid keepr-img" src="https://figmage.com/images/KndD8m4gDG7hjt1xgq5lo.jpg" alt="Keepr">
-            </div>
-          </div>
-        </div>
-  
-          <div class="row">
-            <div class="col-12 m-auto my-5">
-              <div class="full-h-line"></div>
-            </div>
-          </div>
-  
-        <div class="row mt-3" id="AllSpice">
-        <div class="col-6">
-          <div class="ms-4 mb-5">
-            <img class="img-fluid allspice-img" src="https://codeworks.blob.core.windows.net/public/assets/img/projects/AllSpicePoster.jpg" alt="Keepr">
-          </div>
-        </div>
-  
-        <div class="col-6 mt-5">
-          <div class="me-4 mb-3 text-white">
-            <h3 class="text-center">AllSpice</h3>
-            <p>A recipe management application built independently using a Vue.Js front end and a .Net/MySQL back end where users
-              are able to add and view recipes
-            </p>
-  
-            <p>Users can filter recipes by type, add or edit ingredients and instructions, and save their favorite recipes to
-              their account</p>
+            <div class="ms-4 mb-3 text-white">
+          <h3 class="text-center mb-3">Keepr</h3>
+          <p>An application similar to Pintrest built in Vue.Js, .Net, and MySQL where users can manage their keeps and vaults, and
+            share them with others.
+          </p>
 
-              <p>This application's API was thoroughly tested with Postman, and has been optimized for mobile view.</p>
-          </div>
-  
-          <div class="sm-h-line mt-4"></div>
-  
-          <div class="d-flex justify-content-between align-items-center mx-5 mt-4">
+          <p>This application utilizes an Auth0 authenticator to verify and manage user accounts. The UI is updated
+              accordingly based upon a user’s authentication.
+              </p>
+
+          <p>Built independently, I preformed API testing with Postman, accessibility/best practices testing with
+            Lighthouse, and optimized the site for mobile view.
+          </p>
+          
+          <p></p>
+
+          
+        </div>
+        
+        <div class="sm-h-line mt-4"></div>
+        
+        <div class="d-flex justify-content-between align-items-center mx-5 mt-4">
             <img class="img fluid vue-icon2" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/367_Vuejs_logo-512.png" alt="VueJs" title="VueJs">
             <img class="img fluid mysql-icon" src="https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-512.png" alt="MySQL" title="MySQL">
             <img class="img fluid csharp-icon" src="https://www.freeiconspng.com/uploads/c-logo-icon-18.png" alt="C#" title="C#">
             <img class="img fluid post-icon2" src="https://www.svgrepo.com/show/354202/postman-icon.svg" alt="Postman" title="Postman">
           </div>
-  
+          
+        </div>
+        <div class="col-6">
+          <div class="me-4 mb-5">
+            <img class="img-fluid keepr-img" src="https://figmage.com/images/KndD8m4gDG7hjt1xgq5lo.jpg" alt="Keepr">
           </div>
         </div>
-  
-          <div class="row">
-            <div class="col-12 m-auto mt-5">
-              <div class="full-h-line"></div>
-            </div>
-          </div>
+      </div>
 
-    </div>
+        <div class="row">
+          <div class="col-12 m-auto my-5">
+            <div class="full-h-line"></div>
+          </div>
+        </div>
+
+      <div class="row mt-3" id="AllSpice">
+      <div class="col-6">
+        <div class="ms-4 mb-5">
+          <img class="img-fluid allspice-img" src="https://codeworks.blob.core.windows.net/public/assets/img/projects/AllSpicePoster.jpg" alt="Keepr">
+        </div>
+      </div>
+
+      <div class="col-6 mt-5">
+        <div class="me-4 mb-3 text-white">
+          <h3 class="text-center">AllSpice</h3>
+          <p>A recipe management application built independently using a Vue.Js front end and a .Net/MySQL back end where users
+            are able to add and view recipes
+          </p>
+
+          <p>Users can filter recipes by type, add or edit ingredients and instructions, and save their favorite recipes to
+            their account</p>
+
+            <p>This application's API was thoroughly tested with Postman, and has been optimized for mobile view.</p>
+        </div>
+
+        <div class="sm-h-line mt-4"></div>
+
+        <div class="d-flex justify-content-between align-items-center mx-5 mt-4">
+          <img class="img fluid vue-icon2" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/367_Vuejs_logo-512.png" alt="VueJs" title="VueJs">
+          <img class="img fluid mysql-icon" src="https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-512.png" alt="MySQL" title="MySQL">
+          <img class="img fluid csharp-icon" src="https://www.freeiconspng.com/uploads/c-logo-icon-18.png" alt="C#" title="C#">
+          <img class="img fluid post-icon2" src="https://www.svgrepo.com/show/354202/postman-icon.svg" alt="Postman" title="Postman">
+        </div>
+
+        </div>
+      </div>
+
+        <div class="row">
+          <div class="col-12 m-auto mt-5">
+            <div class="full-h-line"></div>
+          </div>
+        </div>
+  </div>
+</section>
 
     <!-- SECTION FORM -->
 
