@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid bg-black">
 
-    <section id="home">
+    <section id="#home">
       <div class="background-img">
         <div class="row">
           <div class="mt-4 text-end">

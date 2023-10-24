@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark nav-background px-3">
+  <nav class="navbar navbar-expand-lg navbar-dark nav-background px-3 fixed-top">
     <!-- <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
       <div class="d-flex flex-column align-items-center">
         <img alt="logo" src="../assets/img/cw-logo.png" height="45" />
@@ -12,7 +12,7 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto">
         <li>
-          <a class="btn selectable text-uppercase" href="#home">Home</a> >
+          <a class="btn text-success selectable text-uppercase" href="home">Home</a>
             
           
         </li>
