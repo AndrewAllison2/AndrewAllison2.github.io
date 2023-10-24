@@ -11,7 +11,7 @@
     
         <div class="row mb-5">
           <div class="col-6 m-auto mt-5 me-5 pt-5">
-            <div class="mt-5 ms-5 text-black typewriter pt-5">
+            <div class="mt-5 ms-2 text-black typewriter pt-5">
               <h1 class="fs-5 mt-5 text-shadow">Hi, I'm Andrew</h1>
                 <h1 class="fs-5 text-shadow">A full-stack <span class="fs-1 text-info">Software Developer</span></h1>
             </div>
@@ -243,7 +243,7 @@ export default {
   background-image: url('https://static.vecteezy.com/system/resources/previews/002/821/966/original/abstract-triangular-geometric-background-free-vector.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 91.5vh;
+  height: 100vh;
 }
 .background-img2{
   background-image: url('https://static.vecteezy.com/system/resources/previews/002/821/966/original/abstract-triangular-geometric-background-free-vector.jpg');
