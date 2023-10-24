@@ -204,7 +204,9 @@
         <div class="d-flex justify-content-center mb-2">
           <a href="https://www.linkedin.com/in/andrewallison2/"><i class="mdi mdi-linkedin fs-1 linked-in selectable mx-2" title="View LinkedIn" ></i></a>
           <a href="https://www.linkedin.com/in/andrewallison2/"><i class="mdi mdi-github fs-1 github selectable mx-2" title="View Github" ></i></a>
-          <a href="../assets/img/Resume - Andrew Allison 2023.pdf"><i class="mdi mdi-file fs-1 resume download mx-2" title="View/Download Resume" ></i></a>
+          <a class="d-flex align-items-center" href="https://drive.google.com/file/d/1my5l6ozTgBCeG6Wc3yY_qn6lF5izV3Ee/view?usp=drive_link">
+            <i class="mdi mdi-file fs-1 resume selectable mx-2" title="View/Download Resume"></i>
+          </a>
           
         </div>
 
@@ -356,6 +358,16 @@ background: linear-gradient(90deg, rgba(20,182,197,1) 0%, rgba(8,56,72,1) 50%, r
   width: 20em;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.linked-in{
+  color: black;
+}
+.github{
+  color: black;
+}
+.resume{
+  color: black;
 }
 
 .form {
