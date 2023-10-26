@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto">
         <li>
-          <a class="btn text-success selectable text-uppercase me-5 px-5" href="#home" id="home">Home</a>
+          <a class="btn text-success selectable text-uppercase me-5 px-5" href="#home" >Home</a>
           <a class="btn text-success selectable text-uppercase mx-5 px-5" href="#about" id="#about">About</a>
           <a class="btn text-success selectable text-uppercase mx-5 px-5" href="#applications">Applications</a>
           <a class="btn text-success selectable text-uppercase mx-5 ps-5" href="#contact">Contact</a>
