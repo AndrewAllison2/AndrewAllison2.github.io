@@ -194,17 +194,17 @@
           <form action="https://formsubmit.co/7821106b1e4ce3ae17cfdca1e845b808" method="POST">
             <div class="row">
               <div class="col form-floating mb-3">
-                <input type="text" class="form-control" id="firstName" required placeholder="First Name" aria-label="First name">
+                <input type="text" class="form-control" id="firstName" required placeholder="First Name" aria-label="First name" name="first-name">
                 <label class="ms-2" for="firstName">First Name</label>
               </div>
               <div class="col form-floating mb-3">
-                <input type="text" class="form-control" id="lastName" required placeholder="Last Name" aria-label="Last name">
+                <input type="text" class="form-control" id="lastName" required placeholder="Last Name" aria-label="Last name" name="last-name">
                 <label class="ms-2" for="lastName">Last Name</label>
               </div>
             </div>
             <div class="row">
             <div class="col form-floating mb-3">
-              <input type="email" class="form-control" id="emailaddress" required placeholder="name@example.com">
+              <input type="email" class="form-control" id="emailaddress" required placeholder="name@example.com" name="email">
               <label class="ms-2" for="emailaddress">Email address</label>
             </div>
               <div class="col form-floating mb-3">
@@ -219,7 +219,7 @@
             </div> -->
             <div class="mb-3">
               <!-- <label for="exampleFormControlTextarea1" class="form-label">Message</label> -->
-              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your message" rows="5" required></textarea>
+              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your message" rows="5" required name="message"></textarea>
             </div>
 
               <button class="btn btn-primary">Send</button>
@@ -256,7 +256,13 @@ export default {
 
 
     
-        return {};
+    return {
+
+      clearAllInputs(event) {
+        var allInputs = document.querySelectorAll('input')
+        allInputs.forEach(singleInput => singleInput.value = '')
+      }
+        };
     },
 
 }
