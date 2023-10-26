@@ -219,7 +219,7 @@
             </div> -->
             <div class="mb-3">
               <!-- <label for="exampleFormControlTextarea1" class="form-label">Message</label> -->
-              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your message" rows="5" required name="message"></textarea>
+              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your message" rows="5" required name="message" maxlength="2500"></textarea>
             </div>
 
               <button class="btn btn-primary">Send</button>
@@ -258,10 +258,10 @@ export default {
     
     return {
 
-      clearAllInputs(event) {
-        var allInputs = document.querySelectorAll('input')
-        allInputs.forEach(singleInput => singleInput.value = '')
-      }
+      // clearAllInputs(event) {
+      //   var allInputs = document.querySelectorAll('input')
+      //   allInputs.forEach(singleInput => singleInput.value = '')
+      // }
         };
     },
 
