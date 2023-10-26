@@ -219,7 +219,7 @@
             </div> -->
             <div class="mb-3">
               <!-- <label for="exampleFormControlTextarea1" class="form-label">Message</label> -->
-              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="5" required></textarea>
+              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your message" rows="5" required></textarea>
             </div>
 
               <button class="btn btn-primary">Send</button>
