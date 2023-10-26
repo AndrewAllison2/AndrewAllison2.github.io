@@ -23,14 +23,14 @@
 
 
 <!-- SECTION ABOUT -->
-    <section id="about">
+    <section id="about" class="about py-1">
       <div class="background-sec">
         <div class="row">
-        <div class="col-5 text-center my-5">
+        <div class="col-5 text-center my-5 pt-5">
           <img class="img-fluid avatar" src="../assets/img/Professional Photo.jpg" alt="Andrew Allison">
         </div>
   
-        <div class="col-5 my-5">
+        <div class="col-5 my-5 pt-5">
           <div class="text-white">
             <h2 class="mb-4">About Me</h2>
             <h5 class="mt-3 mb-3 font-italic">Hi, I'm Andrew!</h5>
@@ -45,10 +45,10 @@
 
 
 <!-- SECTION APPLICATIONS -->
-<section id="applications">
+<section id="applications" class="applications">
   <div class="background-third">
     <div class="row">
-      <div class="col-8 m-auto my-5">
+      <div class="col-8 m-auto my-5 pt-4">
         <h2 class="fs-1 app-text text-center">Applications</h2>
       </div>
     </div>
@@ -57,7 +57,9 @@
     <div class="row mt-3" id="devs&dragons">
       <div class="col-6">
         <div class="ms-4 mb-5">
-          <img class="img-fluid" src="../assets/img/Screenshot (2).png" alt="Devs & Dragons">
+          <a href="https://github.com/AndrewAllison2/devs_and_dragons">
+            <img class="img-fluid" src="../assets/img/Screenshot (2).png" alt="Devs & Dragons" title="View Github Repo">
+          </a>
         </div>
       </div>
 
@@ -126,7 +128,9 @@
         </div>
         <div class="col-6">
           <div class="me-4 mb-5">
-            <img class="img-fluid keepr-img" src="https://figmage.com/images/KndD8m4gDG7hjt1xgq5lo.jpg" alt="Keepr">
+            <a href="https://github.com/AndrewAllison2/keepr">
+              <img class="img-fluid keepr-img" src="https://figmage.com/images/KndD8m4gDG7hjt1xgq5lo.jpg" alt="Keepr" title="View Github Repo">
+            </a>
           </div>
         </div>
       </div>
@@ -140,7 +144,9 @@
       <div class="row mt-3" id="AllSpice">
       <div class="col-6">
         <div class="ms-4 mb-5">
-          <img class="img-fluid allspice-img" src="https://codeworks.blob.core.windows.net/public/assets/img/projects/AllSpicePoster.jpg" alt="Keepr">
+          <a href="https://github.com/AndrewAllison2/Allspice">
+            <img class="img-fluid allspice-img" src="https://codeworks.blob.core.windows.net/public/assets/img/projects/AllSpicePoster.jpg" alt="Keepr" title="View Github Repo">
+          </a>
         </div>
       </div>
 
@@ -178,7 +184,7 @@
 </section>
 
     <!-- SECTION FORM -->
-<section id="contact">
+<section id="contact" class="contact">
   <div class="background-img2">
     <div class="row">
       <!-- TODO set up formsubmit path to send emails to me -->
@@ -257,8 +263,9 @@ export default {
   background-image: url('https://static.vecteezy.com/system/resources/previews/002/821/966/original/abstract-triangular-geometric-background-free-vector.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-
 }
+
+
 
 .text-shadow{
   text-shadow: 1px 1px gray;
@@ -272,6 +279,7 @@ export default {
 .background-sec {
   background: rgb(25,96,98);
 background: linear-gradient(90deg, rgba(25,96,98,1) 0%, rgba(7,53,69,1) 35%, rgba(25,96,98,1) 100%);
+height: 90vh;
 }
 
 .background-third {
@@ -364,8 +372,8 @@ background: linear-gradient(90deg, rgba(20,182,197,1) 0%, rgba(8,56,72,1) 50%, r
 }
 
 .avatar {
-  height: 20em;
-  width: 20em;
+  height: 25em;
+  width: 25em;
   border-radius: 50%;
   object-fit: cover;
 }
