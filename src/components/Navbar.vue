@@ -7,10 +7,10 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto">
         <li>
-          <a class="btn text-success selectable text-uppercase me-5 px-5" >Home</a>
-          <a class="btn text-success selectable text-uppercase mx-5 px-5" href="#about" id="#about">About</a>
-          <a class="btn text-success selectable text-uppercase mx-5 px-5" href="#applications">Applications</a>
-          <a class="btn text-success selectable text-uppercase mx-5 px-5" href="#contact">Contact</a>
+          <a class="btn text-success selectable text-uppercase me-5 px-5" href="#home" @click.prevent="scrollTo('#home')" >Home</a>
+          <a class="btn text-success selectable text-uppercase mx-5 px-5" href="#about" @click.prevent="scrollTo('#about')">About</a>
+          <a class="btn text-success selectable text-uppercase mx-5 px-5" href="#applications" @click.prevent="scrollTo('#applications')">Applications</a>
+          <a class="btn text-success selectable text-uppercase mx-5 px-5" href="#contact" @click.prevent="scrollTo('#contact')">Contact</a>
             
           
         </li>
@@ -27,11 +27,10 @@ export default {
   setup() {
     
     return {
-
-      scrollTo(refName) {
-        const el = this.$refs[refName]
-        el.scrollIntoView({ behavior: 'smooth' })
+      scrollTo(selector) {
+        document.querySelector(selector).scrollIntoView({behavior: 'smooth'})
       }
+
     }
   // components: { Login }
 }

@@ -45,7 +45,7 @@
 
 
 <!-- SECTION APPLICATIONS -->
-<section id="#applications">
+<section id="applications">
   <div class="background-third">
     <div class="row">
       <div class="col-8 m-auto my-5">
@@ -178,7 +178,7 @@
 </section>
 
     <!-- SECTION FORM -->
-<section id="#contact">
+<section id="contact">
   <div class="background-img2">
     <div class="row">
       <!-- TODO set up formsubmit path to send emails to me -->
