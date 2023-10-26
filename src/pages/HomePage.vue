@@ -32,7 +32,7 @@
   
         <div class="col-5 my-5 pt-5">
           <div class="text-white">
-            <h2 class="mb-4">About Me</h2>
+            <h2 class="mb-4" style='color:#f7a51b'>About Me</h2>
             <h5 class="mt-3 mb-3 font-italic">Hi, I'm Andrew!</h5>
             <p>I'm a passionate creator with a knack for design and problem solving. I enjoy designing and building intuitve UI's, as well as dealing with complex logic and data management. I thouroghly enjoy being challenged and working through problems to find creative solutions.</p>
             
@@ -202,10 +202,21 @@
                 <label class="ms-2" for="lastName">Last Name</label>
               </div>
             </div>
+            <div class="row">
             <div class="col form-floating mb-3">
               <input type="email" class="form-control" id="emailaddress" required placeholder="name@example.com">
-              <label for="emailaddress">Email address</label>
+              <label class="ms-2" for="emailaddress">Email address</label>
             </div>
+              <div class="col form-floating mb-3">
+                <input class="form-control" type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="XXX-XXX-XXXX">
+                <label class="ms-2" for="phone">Phone Number</label>
+                
+              </div>
+            </div>
+            <!-- <div class="col form-floating mb-3">
+              <input type="email" class="form-control" id="emailaddress" required placeholder="name@example.com">
+              <label for="emailaddress">Email address</label>
+            </div> -->
             <div class="mb-3">
               <!-- <label for="exampleFormControlTextarea1" class="form-label">Message</label> -->
               <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="5" required></textarea>
@@ -218,7 +229,7 @@
 
       <div class="d-flex justify-content-center mb-2">
         <a href="https://www.linkedin.com/in/andrewallison2/"><i class="mdi mdi-linkedin fs-1 linked-in selectable mx-2" title="View LinkedIn" ></i></a>
-        <a href="https://www.linkedin.com/in/andrewallison2/"><i class="mdi mdi-github fs-1 github selectable mx-2" title="View Github" ></i></a>
+        <a href="https://github.com/AndrewAllison2"><i class="mdi mdi-github fs-1 github selectable mx-2" title="View Github" ></i></a>
         <a class="d-flex align-items-center" href="https://drive.google.com/file/d/1my5l6ozTgBCeG6Wc3yY_qn6lF5izV3Ee/view?usp=drive_link">
           <i class="mdi mdi-file fs-1 resume selectable mx-2" title="View/Download Resume"></i>
         </a>
