@@ -29,19 +29,19 @@ jobs:
       - name: Cleanup 🧹
         run: |
           sudo ssh -i ~/.ssh/id_rsa.pem -o StrictHostKeyChecking=no $EC2_USERNAME@$EC2_IP_ADDRESS '
-            sudo pm2 stop $PROJECT_NAME
-            sudo rm -rf $PROJECT_NAME
+            sudo pm2 stop landing
+            sudo rm -rf landing
             '
 
       - name: Copy your code to the EC2📔
         run: |
-          sudo scp -i ~/.ssh/id_rsa.pem -o StrictHostKeyChecking=no -r $GITHUB_WORKSPACE $EC2_USERNAME@$EC2_IP_ADDRESS:~/$PROJECT_NAME
+          sudo scp -i ~/.ssh/id_rsa.pem -o StrictHostKeyChecking=no -r $GITHUB_WORKSPACE $EC2_USERNAME@$EC2_IP_ADDRESS:~/landing
 
       - name: Restart the EC2 🔃
         run: |
           # Add any commands required to restart your application on the EC2 instance
           # Example: 
           sudo ssh -i ~/.ssh/id_rsa.pem -o StrictHostKeyChecking=no $EC2_USERNAME@$EC2_IP_ADDRESS '
-            cd $PROJECT_NAME && npm run build
-            sudo pm2 restart $PROJECT_NAME
+            cd landing && npm run build
+            sudo pm2 restart landing
             '
