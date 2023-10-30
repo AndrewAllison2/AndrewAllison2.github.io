@@ -27,7 +27,7 @@
       <div class="background-sec">
         <div class="row">
         <div class="col-5 text-center my-5 pt-5">
-          <img class="img-fluid avatar" src="../assets/img/Professional Photo.jpg" alt="Andrew Allison">
+          <img class="img-fluid avatar" src="../assets/img/Professional-Photo.jpg" alt="Andrew Allison">
         </div>
   
         <div class="col-5 my-5 pt-5">
