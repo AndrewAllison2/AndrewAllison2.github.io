@@ -20,7 +20,7 @@
             </div>
 
             <div class="card ms-3" style="width: 22rem;">
-              <img src='../assets/img/Screenshot (2).png' class="card-img-top" alt="Devs and Dragons">
+              <img src='../assets/img/DDScreenshot.png' class="card-img-top" alt="Devs and Dragons">
               <div class="card-body text-center">
                 <h5 class="card-title">Devs and Dragons</h5>
                 <p class="card-text">Devs and Dragons is a D&D Campaign management application that allows players to easily track and coordinate the status of their game. It was built in a team of five devolpers over the course of two weeks using a VueJs front end and NodeJs back end. This application also integrates the D&D api in the form of a search funtion present in each campaign.</p>
