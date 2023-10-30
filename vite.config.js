@@ -3,9 +3,10 @@ import { defineConfig } from 'vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/landing/',
   plugins: [vue()],
   build: {
-    outDir: 'docs',
+    outDir: '../landing',
     sourcemap: false
   },
   server: {

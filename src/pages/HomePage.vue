@@ -58,7 +58,7 @@
       <div class="col-6">
         <div class="ms-4 mb-5">
           <a href="https://github.com/AndrewAllison2/devs_and_dragons">
-            <img class="img-fluid" src="../assets/img/Screenshot (2).png" alt="Devs & Dragons" title="View Github Repo">
+            <img class="img-fluid" src='../assets/img/DDScreenshot.png' alt="Devs & Dragons" title="View Github Repo">
           </a>
         </div>
       </div>
@@ -244,7 +244,7 @@
 </template>
 
 <script>
-// import img from "@/assets/img";
+// import assets from "scr/assets/img";
 
 
 
