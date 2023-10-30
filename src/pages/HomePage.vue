@@ -244,7 +244,7 @@
 </template>
 
 <script>
-
+// import img from "@/assets/img";
 
 
 
