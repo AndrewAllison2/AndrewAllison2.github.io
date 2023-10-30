@@ -11,7 +11,7 @@
         </div>
     
         <div class="row mb-5">
-          <div class="col-6 m-auto mt-5 me-5 pt-5">
+          <div class="col-md-6 col-12 m-auto mt-5 me-5 pt-5 heading-section">
             <div class="mt-5 ms-2 text-black typewriter pt-5">
               <h1 class="fs-5 mt-5 text-shadow">Hi, I'm Andrew</h1>
                 <h1 class="fs-5 text-shadow">A full-stack <span class="fs-1 text-info">Software Developer</span></h1>
@@ -430,6 +430,12 @@ background: linear-gradient(90deg, rgba(20,182,197,1) 0%, rgba(8,56,72,1) 50%, r
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange; }
+}
+
+@media screen and (max-width: 769px) {
+  .heading-section{
+    margin-left: 0px;
+  }
 }
 
 
