@@ -1,7 +1,7 @@
 <template>
 
   <div class="row mt-3" id="AllSpice">
-      <div class="col-6">
+      <div class="col-md-6 col-12">
         <div class="ms-4 mb-5">
           <a href="https://github.com/AndrewAllison2/Allspice">
             <img class="img-fluid allspice-img" src="https://codeworks.blob.core.windows.net/public/assets/img/projects/AllSpicePoster.jpg" alt="Keepr" title="View Github Repo">
@@ -9,8 +9,8 @@
         </div>
       </div>
 
-      <div class="col-6 mt-5">
-        <div class="me-4 mb-3 text-white">
+      <div class="col-md-6 col-12 mt-5">
+        <div class="mb-3 text-white allspice-content">
           <h3 class="text-center">AllSpice</h3>
           <p>A recipe management application built independently using a Vue.Js front end and a .Net/MySQL back end where users
             are able to add and view recipes
@@ -24,7 +24,7 @@
 
         <div class="sm-h-line mt-4"></div>
 
-        <div class="d-flex justify-content-between align-items-center mx-5 mt-4">
+        <div class="d-flex justify-content-between align-items-center mt-4 allspice-icon-section">
           <img class="img fluid vue-icon2" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/367_Vuejs_logo-512.png" alt="VueJs" title="VueJs">
           <img class="img fluid mysql-icon" src="https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-512.png" alt="MySQL" title="MySQL">
           <img class="img fluid csharp-icon" src="https://www.freeiconspng.com/uploads/c-logo-icon-18.png" alt="C#" title="C#">
@@ -47,6 +47,13 @@ export default {
 
 
 <style lang="scss" scoped>
+.allspice-content{
+  margin-right: 1.5rem;
+}
+.allspice-icon-section{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
 .allspice-img {
   height: 25em;
   width: 100%;
@@ -70,6 +77,29 @@ export default {
   height: 7em
 }
 @media screen and (max-width: 769px){
-
+.allspice-content{
+  margin-left: 1.5rem;
+}
+.allspice-img{
+  height: auto;
+  width: 92%;
+}
+.allspice-icon-section{
+  padding: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+.vue-icon2{
+  height: 4em;
+}
+.mysql-icon{
+    height: 4em;
+  }
+  .csharp-icon{
+    height: 4em;
+  }
+  .post-icon{
+    height: 4em;
+  }
 }
 </style>
