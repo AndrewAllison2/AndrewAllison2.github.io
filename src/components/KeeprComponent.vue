@@ -85,6 +85,11 @@ export default {
   .keepr-icon-section{
     padding: 1rem;
   }
+  .keepr-img{
+    height: auto;
+    margin-left: 0.7rem;
+    margin-top: 1rem;
+  }
   .vue-icon2{
     height: 4em;
     margin-left: 0;
