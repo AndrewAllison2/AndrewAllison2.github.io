@@ -43,53 +43,17 @@
 <!-- STUB DEVS AND DRAGONS INFO -->
     <DDAppComponent />
 
-<!-- STUB KEEPR INFO -->
-        <div class="row">
-          <div class="col-12 m-auto my-5">
-            <div class="full-h-line"></div>
-          </div>
-        </div>
-
-        <div class="row mt-3" id="keepr">
-          
-          <div class="col-md-6 col-12">
-            <div class="ms-4 mb-3 text-white">
-          <h3 class="text-center mb-3">Keepr</h3>
-          <p>An application similar to Pintrest built in Vue.Js, .Net, and MySQL where users can manage their keeps and vaults, and
-            share them with others.
-          </p>
-
-          <p>This application utilizes an Auth0 authenticator to verify and manage user accounts. The UI is updated
-              accordingly based upon a user’s authentication.
-              </p>
-
-          <p>Built independently, I preformed API testing with Postman, accessibility/best practices testing with
-            Lighthouse, and optimized the site for mobile view.
-          </p>
-          
-          <p></p>
-
-          
-        </div>
-        
-        <div class="sm-h-line mt-4"></div>
-        
-        <div class="d-flex justify-content-between align-items-center mt-4 keepr-icon-section">
-            <img class="img fluid vue-icon2 ms-2" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/367_Vuejs_logo-512.png" alt="VueJs" title="VueJs">
-            <img class="img fluid mysql-icon" src="https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-512.png" alt="MySQL" title="MySQL">
-            <img class="img fluid csharp-icon" src="https://www.freeiconspng.com/uploads/c-logo-icon-18.png" alt="C#" title="C#">
-            <img class="img fluid post-icon2" src="https://www.svgrepo.com/show/354202/postman-icon.svg" alt="Postman" title="Postman">
-          </div>
-          
-        </div>
-        <div class="col-md-6 col-12">
-          <div class="me-4 mb-5">
-            <a href="https://github.com/AndrewAllison2/keepr">
-              <img class="img-fluid keepr-img" src="https://figmage.com/images/KndD8m4gDG7hjt1xgq5lo.jpg" alt="Keepr" title="View Github Repo">
-            </a>
-          </div>
-        </div>
+    <div class="row">
+      <div class="col-12 m-auto my-5">
+        <div class="full-h-line"></div>
       </div>
+    </div>
+    
+    
+    <!-- STUB KEEPR INFO -->
+    <KeeprComponent />
+
+
 
         <div class="row">
           <div class="col-12 m-auto my-5">
@@ -240,9 +204,6 @@ background: linear-gradient(90deg, rgba(20,182,197,1) 0%, rgba(8,56,72,1) 50%, r
 .post-icon{
   height: 7em
 }
-.post-icon2{
-  height: 7em
-}
 
 .vue-icon {
   height: 8em;
@@ -264,11 +225,7 @@ background: linear-gradient(90deg, rgba(20,182,197,1) 0%, rgba(8,56,72,1) 50%, r
 }
 
 
-.keepr-img {
-  height: 25em;
-  width: 100%;
-  object-fit: cover;
-}
+
 
 .allspice-img {
   height: 25em;

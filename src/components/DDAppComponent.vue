@@ -53,6 +53,11 @@ export default {
 .dd-content{
   margin-right: 1.5rem;
 }
+.sm-h-line {
+  height: 1px;
+  background: white;
+  width: 100%;
+}
 .dd-icon-section{
   margin-top: 1rem;
   padding-left: 1rem;
