@@ -23,14 +23,16 @@
 
 
 <!-- SECTION ABOUT -->
+
+<!-- FIXME reorder sections on mobile -->
     <section id="about" class="about py-1">
       <div class="background-sec">
         <div class="row">
-        <div class="col-5 text-center my-5 pt-5">
+        <div class="col-md-5 col-12 text-center my-5 pt-5">
           <img class="img-fluid avatar" src="../assets/img/Professional-Photo.jpg" alt="Andrew Allison">
         </div>
   
-        <div class="col-5 my-5 pt-5">
+        <div class="col-md-5 col-12 my-5 pt-5">
           <div class="text-white">
             <h2 class="mb-4" style='color:#f7a51b'>About Me</h2>
             <h5 class="mt-3 mb-3 font-italic">Hi, I'm Andrew!</h5>
@@ -48,14 +50,14 @@
 <section id="applications" class="applications">
   <div class="background-third">
     <div class="row">
-      <div class="col-8 m-auto my-5 pt-4">
+      <div class="col-md-8 col-12 m-auto my-5 pt-4">
         <h2 class="fs-1 app-text text-center">Applications</h2>
       </div>
     </div>
 
 <!-- NOTE have it cycle through multiple imgs of apps here would be cool -->
     <div class="row mt-3" id="devs&dragons">
-      <div class="col-6">
+      <div class="col-md-6 col-12">
         <div class="ms-4 mb-5">
           <a href="https://github.com/AndrewAllison2/devs_and_dragons">
             <img class="img-fluid" src='../assets/img/DDScreenshot.png' alt="Devs & Dragons" title="View Github Repo">
@@ -63,7 +65,7 @@
         </div>
       </div>
 
-      <div class="col-6">
+      <div class="col-md-6 col-12">
         <div class="me-4 mb-3 text-white">
           <h3 class="text-center mb-3">Devs & Dragons</h3>
           <p class="mb-4">A Dungeons & Dragons campaign management application built with a Vue.Js front
@@ -79,7 +81,7 @@
 
         <div class="sm-h-line"></div>
 
-        <div class="d-flex justify-content-between align-items-center mx-5 mt-4">
+        <div class="d-flex justify-content-between align-items-center mx-5 mt-4 dd-icon-section">
           <img class="img fluid vue-icon" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/367_Vuejs_logo-512.png" alt="VueJs" title="VueJs">
           <img class="img fluid node-icon" src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" alt="NodeJs" title="NodeJS/Express">
           <img class="img fluid mongo-icon" src="https://icons-for-free.com/iconfiles/png/512/MongoDB-1329545826074381322.png" alt="MongoDB" title="MongoDB">
@@ -185,86 +187,29 @@
 
     <!-- SECTION FORM -->
 <section id="contact" class="contact">
-  <div class="background-img2">
-    <div class="row">
-      <!-- TODO set up formsubmit path to send emails to me -->
-      <div class="col-8 m-auto">
-        <div class="form card p-4 ms-5 mt-5 mb-5">
-          <h3 class="fs-1 text-black text-center mb-4">Get In Touch</h3>
-          <form action="https://formsubmit.co/7821106b1e4ce3ae17cfdca1e845b808" method="POST">
-            <div class="row">
-              <div class="col form-floating mb-3">
-                <input type="text" class="form-control" id="firstName" required placeholder="First Name" aria-label="First name" name="first-name">
-                <label class="ms-2" for="firstName">First Name</label>
-              </div>
-              <div class="col form-floating mb-3">
-                <input type="text" class="form-control" id="lastName" required placeholder="Last Name" aria-label="Last name" name="last-name">
-                <label class="ms-2" for="lastName">Last Name</label>
-              </div>
-            </div>
-            <div class="row">
-            <div class="col form-floating mb-3">
-              <input type="email" class="form-control" id="emailaddress" required placeholder="name@example.com" name="email">
-              <label class="ms-2" for="emailaddress">Email address</label>
-            </div>
-              <div class="col form-floating mb-3">
-                <input class="form-control" type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="XXX-XXX-XXXX">
-                <label class="ms-2" for="phone">Phone Number</label>
-                
-              </div>
-            </div>
-            <!-- <div class="col form-floating mb-3">
-              <input type="email" class="form-control" id="emailaddress" required placeholder="name@example.com">
-              <label for="emailaddress">Email address</label>
-            </div> -->
-            <div class="mb-3">
-              <!-- <label for="exampleFormControlTextarea1" class="form-label">Message</label> -->
-              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your message" rows="5" required name="message" maxlength="2500"></textarea>
-            </div>
-
-              <button class="btn btn-primary">Send</button>
-          </form>
-        </div>
-      </div>
-
-      <div class="d-flex justify-content-center mb-2">
-        <a href="https://www.linkedin.com/in/andrewallison2/"><i class="mdi mdi-linkedin fs-1 linked-in selectable mx-2" title="View LinkedIn" ></i></a>
-        <a href="https://github.com/AndrewAllison2"><i class="mdi mdi-github fs-1 github selectable mx-2" title="View Github" ></i></a>
-        <a class="d-flex align-items-center" href="https://drive.google.com/file/d/1my5l6ozTgBCeG6Wc3yY_qn6lF5izV3Ee/view?usp=drive_link">
-          <i class="mdi mdi-file fs-1 resume selectable mx-2" title="View/Download Resume"></i>
-        </a>
-        
-      </div>
-
-  </div>
-  </div>
+ <ContactComponent />
 </section>
 
   </div>
 </template>
 
 <script>
+import ContactComponent from "../components/ContactComponent.vue";
+
 // import assets from "scr/assets/img";
 
 
 
 export default {
-
-  
-  setup() {
-    
-
-
-    
-    return {
-
-      // clearAllInputs(event) {
-      //   var allInputs = document.querySelectorAll('input')
-      //   allInputs.forEach(singleInput => singleInput.value = '')
-      // }
+    setup() {
+        return {
+        // clearAllInputs(event) {
+        //   var allInputs = document.querySelectorAll('input')
+        //   allInputs.forEach(singleInput => singleInput.value = '')
+        // }
         };
     },
-
+    components: { ContactComponent }
 }
 </script>
 
@@ -276,14 +221,6 @@ export default {
   background-repeat: no-repeat;
   height: 100vh;
 }
-.background-img2{
-  background-image: url('https://static.vecteezy.com/system/resources/previews/002/821/966/original/abstract-triangular-geometric-background-free-vector.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-
-
 .text-shadow{
   text-shadow: 1px 1px gray;
 }
@@ -395,20 +332,6 @@ background: linear-gradient(90deg, rgba(20,182,197,1) 0%, rgba(8,56,72,1) 50%, r
   object-fit: cover;
 }
 
-.linked-in{
-  color: black;
-}
-.github{
-  color: black;
-}
-.resume{
-  color: black;
-}
-
-.form {
-  width: 90%;
-}
-
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
@@ -436,6 +359,37 @@ background: linear-gradient(90deg, rgba(20,182,197,1) 0%, rgba(8,56,72,1) 50%, r
   .heading-section{
     margin-left: 0px;
   }
+  .vue-icon{
+    height: 5em;
+  }
+  .node-icon{
+    height: 5em;
+  }
+  .mongo-icon{
+    height: 5em;
+  }
+  .post-icon{
+    height: 5em;
+  }
+  .dd-icon-section{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: wrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .10em; /* Adjust as needed */
+  // animation: 
+  //   typing 3.5s steps(40, end),
+  //   blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
 }
 
 
