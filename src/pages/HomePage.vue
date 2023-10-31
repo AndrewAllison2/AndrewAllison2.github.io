@@ -81,7 +81,7 @@
 
         <div class="sm-h-line"></div>
 
-        <div class="d-flex justify-content-between align-items-center mx-5 mt-4 dd-icon-section">
+        <div class="d-flex justify-content-between align-items-center mt-4 dd-icon-section">
           <img class="img fluid vue-icon" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/367_Vuejs_logo-512.png" alt="VueJs" title="VueJs">
           <img class="img fluid node-icon" src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" alt="NodeJs" title="NodeJS/Express">
           <img class="img fluid mongo-icon" src="https://icons-for-free.com/iconfiles/png/512/MongoDB-1329545826074381322.png" alt="MongoDB" title="MongoDB">
@@ -187,7 +187,7 @@
 
     <!-- SECTION FORM -->
 <section id="contact" class="contact">
- <ContactComponent />
+  <ContactComponent />
 </section>
 
   </div>
@@ -259,6 +259,10 @@ background: linear-gradient(90deg, rgba(20,182,197,1) 0%, rgba(8,56,72,1) 50%, r
 
 .app-text{
   color: #f7a51b;
+}
+.dd-icon-section{
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .html-icon {
@@ -361,20 +365,31 @@ background: linear-gradient(90deg, rgba(20,182,197,1) 0%, rgba(8,56,72,1) 50%, r
   }
   .vue-icon{
     height: 5em;
+    padding: 4px;
   }
   .node-icon{
     height: 5em;
+    padding: 4px;
   }
   .mongo-icon{
     height: 5em;
+    padding: 4px;
   }
   .post-icon{
     height: 5em;
+    padding: 4px;
   }
   .dd-icon-section{
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
   }
+
+
+
+
+
+
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
