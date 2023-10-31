@@ -3,7 +3,7 @@
   <div class="bg-black">
         <div class="row">
           <h1 class="text-center mt-3" style='color:#f7a51b'>My Skills</h1>
-          <div class="col-12">
+          <div class="col-12 d-flex align-content-center">
             <marquee class="mb-3 skills-icons">
               <img class="img- mx-2" style="height: 7em;" src="https://www.freeiconspng.com/thumbs/html5-icon/html5-icon-1.png" alt="HTML5" title="HTML5">
               <img class="img- mx-2" style="height: 7em;" src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="CSS" title="CSS">
