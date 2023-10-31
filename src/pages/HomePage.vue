@@ -112,18 +112,9 @@ export default {
 .text-shadow{
   text-shadow: 1px 1px gray;
 }
-.h-line {
-  height: 1px;
-  width: 100%;
-  background: black;
-}
 .background-third {
   background: rgb(20,182,197);
 background: linear-gradient(90deg, rgba(20,182,197,1) 0%, rgba(8,56,72,1) 50%, rgba(20,86,96,1) 100%);
-}
-
-.background-four{
-  background-color: #efe8d8;
 }
 
 .full-h-line {
@@ -132,72 +123,9 @@ background: linear-gradient(90deg, rgba(20,182,197,1) 0%, rgba(8,56,72,1) 50%, r
   background: white;
 }
 
-.sm-h-line {
-  height: 1px;
-  background: white;
-  width: 100%;
-}
-
 .app-text{
   color: #f7a51b;
 }
-.dd-icon-section{
-  margin-left: 3rem;
-  margin-right: 3rem;
-}
-
-.html-icon {
-  height: 8em;
-}
-.html-icon2 {
-  height: 6em;
-}
-
-.css-icon {
-  height: 8em;
-}
-.css-icon2 {
-  height: 6em;
-}
-
-.js-icon {
-  height: 8em;
-}
-.js-icon2 {
-  height: 6em;
-}
-
-.mongo-icon{
-  height: 7em;
-}
-
-.post-icon{
-  height: 7em
-}
-
-.vue-icon {
-  height: 8em;
-}
-.vue-icon2 {
-  height: 8em;
-}
-
-.node-icon {
-  height: 7em;
-}
-
-.mysql-icon {
-  height: 8em;
-}
-
-.csharp-icon {
-  height: 7em;
-}
-
-
-
-
-
 
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
