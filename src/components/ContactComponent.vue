@@ -4,8 +4,8 @@
   <div class="background-img2">
     <div class="row">
       <!-- TODO set up formsubmit path to send emails to me -->
-      <div class="col-8 m-auto">
-        <div class="form card p-4 ms-5 mt-5 mb-5">
+      <div class="col-md-8 col-12 m-auto">
+        <div class="form card p-4 mt-5 mb-5 form-card">
           <h3 class="fs-1 text-black text-center mb-4">Get In Touch</h3>
           <form action="https://formsubmit.co/7821106b1e4ce3ae17cfdca1e845b808" method="POST">
             <div class="row">
@@ -74,6 +74,9 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.form-card{
+  margin-left: 3rem;
+}
 .linked-in{
   color: black;
 }
@@ -86,5 +89,13 @@ export default {
 
 .form {
   width: 90%;
+}
+@media screen and (max-width: 769px){
+  .form-card{
+    margin-left: .5rem;
+  }
+  .form{
+    width: 95%;
+  }
 }
 </style>
