@@ -2,7 +2,7 @@
 
       <div class="row mt-3" id="devs&dragons">
       <div class="col-md-6 col-12">
-        <div class="ms-4 mb-5">
+        <div class="mb-5 img-container">
           <a href="https://github.com/AndrewAllison2/devs_and_dragons">
             <img class="img-fluid" src='../assets/img/DDScreenshot.png' alt="Devs & Dragons" title="View Github Repo">
           </a>
@@ -10,7 +10,7 @@
       </div>
 
       <div class="col-md-6 col-12">
-        <div class="me-4 mb-3 text-white">
+        <div class="mb-3 text-white dd-content">
           <h3 class="text-center mb-3">Devs & Dragons</h3>
           <p class="mb-4">A Dungeons & Dragons campaign management application built with a Vue.Js front
           end and an Express/NodeJs back end that allows players to stay connected and coordinate their games.
@@ -25,7 +25,7 @@
 
         <div class="sm-h-line"></div>
 
-        <div class="d-flex justify-content-between align-items-center mt-4 dd-icon-section">
+        <div class="d-flex justify-content-between align-items-center dd-icon-section">
           <img class="img fluid vue-icon" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/367_Vuejs_logo-512.png" alt="VueJs" title="VueJs">
           <img class="img fluid node-icon" src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" alt="NodeJs" title="NodeJS/Express">
           <img class="img fluid mongo-icon" src="https://icons-for-free.com/iconfiles/png/512/MongoDB-1329545826074381322.png" alt="MongoDB" title="MongoDB">
@@ -47,6 +47,17 @@ export default {
 
 
 <style lang="scss" scoped>
+.img-container{
+  margin-left: 1.5rem;
+}
+.dd-content{
+  margin-right: 1.5rem;
+}
+.dd-icon-section{
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 .vue-icon {
   height: 8em;
 }
@@ -57,7 +68,28 @@ export default {
   height: 7em;
 }
 .post-icon{
-  height: 7em
+  height: 6.7em
+}
+@media screen and (max-width: 769px){
+  .img-container{
+    margin-right: 1.5rem;
+  }
+  .dd-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .vue-icon{
+    height: 4em;
+  }
+  .node-icon{
+    height: 4em;
+  }
+  .mongo-icon{
+    height: 4em;
+  }
+  .post-icon{
+    height: 4em;
+  }
 }
 
 </style>
