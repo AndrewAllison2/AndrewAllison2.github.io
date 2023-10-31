@@ -27,11 +27,11 @@
 <!-- FIXME reorder sections on mobile -->
     <section id="about" class="about py-1">
       <AboutComponent />
+      <SkillsComponent />
     </section>
 
 <!-- SECTION SKILLS -->
     <section>
-      <SkillsComponent />
     </section>
 
 

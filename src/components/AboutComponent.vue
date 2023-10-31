@@ -34,7 +34,7 @@ export default {
 .background-sec {
   background: rgb(25,96,98);
 background: linear-gradient(90deg, rgba(25,96,98,1) 0%, rgba(7,53,69,1) 35%, rgba(25,96,98,1) 100%);
-height: 90vh;
+height: 75vh;
 }
 
 .avatar {
