@@ -33,7 +33,7 @@
 <section id="applications" class="applications">
   <div class="background-third">
     <div class="row">
-      <div class="col-md-8 col-12 m-auto my-5 pt-4">
+      <div class="col-md-8 col-12 app-heading">
         <h2 class="fs-1 app-text text-center">Applications</h2>
       </div>
     </div>
@@ -115,6 +115,13 @@ export default {
 .background-third {
   background: rgb(20,182,197);
 background: linear-gradient(90deg, rgba(20,182,197,1) 0%, rgba(8,56,72,1) 50%, rgba(20,86,96,1) 100%);
+}
+.app-heading{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1.5rem;
 }
 
 .full-h-line {
