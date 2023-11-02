@@ -64,8 +64,8 @@ height: 75vh;
   margin-bottom: 3rem;
 }
 .about-container{
-  // margin-top: 1rem;
-  // padding-top: 1rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
   margin-bottom: 1rem;
 }
 .avatar{
