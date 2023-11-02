@@ -91,10 +91,7 @@ import ContactComponent from "../components/ContactComponent.vue";
 export default {
     setup() {
         return {
-        // clearAllInputs(event) {
-        //   var allInputs = document.querySelectorAll('input')
-        //   allInputs.forEach(singleInput => singleInput.value = '')
-        // }
+
         };
     },
     components: { ContactComponent }
