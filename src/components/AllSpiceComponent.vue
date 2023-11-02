@@ -1,7 +1,7 @@
 <template>
 
   <div class="row mt-3" id="AllSpice">
-      <div class="col-md-6 col-12">
+      <div class="col-md-6 col-12 order-md-1 order-2">
         <div class="ms-4 mb-5">
           <a href="https://github.com/AndrewAllison2/Allspice">
             <img class="img-fluid allspice-img" src="https://codeworks.blob.core.windows.net/public/assets/img/projects/AllSpicePoster.jpg" alt="Keepr" title="View Github Repo">
@@ -9,7 +9,7 @@
         </div>
       </div>
 
-      <div class="col-md-6 col-12 mt-5">
+      <div class="col-md-6 col-12 mt-5 order-md-2 order-1">
         <div class="mb-3 text-white allspice-content">
           <h3 class="text-center">AllSpice</h3>
           <p>A recipe management application built independently using a Vue.Js front end and a .Net/MySQL back end where users
