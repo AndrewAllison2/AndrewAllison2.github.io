@@ -24,7 +24,7 @@
               <label class="ms-2" for="emailaddress">Email address</label>
             </div>
               <div class="col form-floating mb-3">
-                <input class="form-control" type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="XXX-XXX-XXXX">
+                <input class="form-control" type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" title="XXX-XXX-XXXX">
                 <label class="ms-2" for="phone">Phone Number</label>
                 
               </div>
