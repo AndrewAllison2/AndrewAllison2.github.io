@@ -1,7 +1,7 @@
 <template>
 
       <div class="row mt-3" id="devs&dragons">
-      <div class="col-md-6 col-12 order-md-2 order-2">
+      <div class="col-md-6 col-12 order-md-1 order-2">
         <div class="mb-5 img-container">
           <a href="https://github.com/AndrewAllison2/devs_and_dragons">
             <img class="img-fluid" src='../assets/img/DDScreenshot.png' alt="Devs & Dragons" title="View Github Repo">
@@ -9,7 +9,7 @@
         </div>
       </div>
 
-      <div class="col-md-6 col-12 order-md-1 order-1">
+      <div class="col-md-6 col-12 order-md-2 order-1">
         <div class="mb-3 text-white dd-content">
           <h3 class="text-center mb-3">Devs & Dragons</h3>
           <p class="mb-4">A Dungeons & Dragons campaign management application built with a Vue.Js front
@@ -51,14 +51,16 @@ export default {
 <style lang="scss" scoped>
 .img-container{
   margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 .dd-content{
   margin-right: 1.5rem;
+  margin-left: 1.5rem;
 }
 .sm-h-line {
   height: 1px;
   background: white;
-  width: 100%;
+  width: 98%;
 }
 .dd-icon-section{
   margin-top: 1rem;
