@@ -161,6 +161,13 @@ background: linear-gradient(90deg, rgba(20,182,197,1) 0%, rgba(8,56,72,1) 50%, r
   .heading-section{
     margin-left: 0px;
   }
+  .app-heading{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+}
   .vue-icon{
     height: 5em;
     padding: 4px;
