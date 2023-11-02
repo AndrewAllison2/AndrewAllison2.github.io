@@ -36,6 +36,7 @@
             <a href="https://github.com/AndrewAllison2/keepr">
               <img class="img-fluid keepr-img" src="https://figmage.com/images/KndD8m4gDG7hjt1xgq5lo.jpg" alt="Keepr" title="View Github Repo">
             </a>
+            <p class="text-center mt-2 d-md-none text-white">CLICK TO VIEW GITHUB REPO</p>
           </div>
         </div>
       </div>

@@ -6,6 +6,7 @@
           <a href="https://github.com/AndrewAllison2/devs_and_dragons">
             <img class="img-fluid" src='../assets/img/DDScreenshot.png' alt="Devs & Dragons" title="View Github Repo">
           </a>
+          <p class="text-center mt-2 d-md-none text-white">CLICK TO VIEW GITHUB REPO</p>
         </div>
       </div>
 

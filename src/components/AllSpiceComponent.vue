@@ -6,6 +6,7 @@
           <a href="https://github.com/AndrewAllison2/Allspice">
             <img class="img-fluid allspice-img" src="https://codeworks.blob.core.windows.net/public/assets/img/projects/AllSpicePoster.jpg" alt="Keepr" title="View Github Repo">
           </a>
+          <p class="text-center mt-2 d-md-none text-white">CLICK TO VIEW GITHUB REPO</p>
         </div>
       </div>
 
