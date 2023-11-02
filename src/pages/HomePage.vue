@@ -10,12 +10,21 @@
           </div>
         </div>
     
+<!-- STUB DESKTOP VIEW -->
         <div class="row mb-5">
-          <div class="col-md-6 col-12 m-auto mt-md-5 me-5 pt-5 heading-section">
-            <div class="mt-5 ms-2 text-black typewriter pt-5">
+          <div class="col-md-6 col-12 m-auto mt-5 me-5 pt-5 heading-section">
+            <div class="mt-5 ms-2 text-black typewriter pt-5 d-md-block d-none">
               <h1 class="fs-5 mt-5 text-shadow">Hi, I'm Andrew</h1>
                 <h1 class="fs-5 text-shadow">A full-stack <span class="fs-1 text-info">Software Developer</span></h1>
             </div>
+
+<!-- STUB MOBILE VIEW -->
+            <div class="mt-5 ms-2 text-black text-center pt-1 d-block d-md-none">
+              <h1 class="fs-5 mt-5 text-shadow">Hi, I'm Andrew</h1>
+                <h1 class="fs-5 text-shadow">A full-stack</h1>
+                <h1 class="text-info">Software Developer</h1>
+            </div>
+
           </div>
         </div>
       </div>
