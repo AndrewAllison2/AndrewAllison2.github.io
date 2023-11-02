@@ -11,7 +11,7 @@
         </div>
     
         <div class="row mb-5">
-          <div class="col-md-6 col-12 m-auto mt-5 me-5 pt-5 heading-section">
+          <div class="col-md-6 col-12 m-auto mt-md-5 me-5 pt-5 heading-section">
             <div class="mt-5 ms-2 text-black typewriter pt-5">
               <h1 class="fs-5 mt-5 text-shadow">Hi, I'm Andrew</h1>
                 <h1 class="fs-5 text-shadow">A full-stack <span class="fs-1 text-info">Software Developer</span></h1>
@@ -159,6 +159,7 @@ background: linear-gradient(90deg, rgba(20,182,197,1) 0%, rgba(8,56,72,1) 50%, r
 }
 
 @media screen and (max-width: 769px) {
+  
   .heading-section{
     margin-left: 0px;
   }
@@ -201,14 +202,15 @@ background: linear-gradient(90deg, rgba(20,182,197,1) 0%, rgba(8,56,72,1) 50%, r
 
 
 .typewriter h1 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
+  
+  overflow: none; /* Ensures the content is not revealed until the animation */
+  border-right: none; /* The typwriter cursor */
   white-space: wrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  margin-left: 3rem;
   letter-spacing: .10em; /* Adjust as needed */
-  // animation: 
-  //   typing 3.5s steps(40, end),
-  //   blink-caret .75s step-end infinite;
+  animation: 
+    none;
 }
 @keyframes typing {
   from { width: 0 }
