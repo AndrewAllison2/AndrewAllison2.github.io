@@ -31,6 +31,8 @@
           <img class="img fluid mongo-icon" src="https://icons-for-free.com/iconfiles/png/512/MongoDB-1329545826074381322.png" alt="MongoDB" title="MongoDB">
           <img class="img fluid post-icon" src="https://www.svgrepo.com/show/354202/postman-icon.svg" alt="Postman" title="Postman">
         </div>
+
+        <div class="sm-h-line d-md-none mt-3"></div>
       </div>
     </div>
 
@@ -78,6 +80,7 @@ export default {
 @media screen and (max-width: 769px){
   .img-container{
     margin-right: 1.5rem;
+    margin-top: 2rem;
   }
   .dd-content{
     margin-left: 1rem;
