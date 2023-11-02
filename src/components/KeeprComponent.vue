@@ -64,6 +64,7 @@ export default {
   height: 25em;
   width: 100%;
   object-fit: cover;
+  padding: 0.6rem;
 }
 .vue-icon2 {
   height: 8em;
