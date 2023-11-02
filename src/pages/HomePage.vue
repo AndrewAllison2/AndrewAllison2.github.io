@@ -44,7 +44,7 @@
     <DDAppComponent />
 
     <div class="row">
-      <div class="col-12 m-auto my-5">
+      <div class="col-12 app-line-break">
         <div class="full-h-line"></div>
       </div>
     </div>
@@ -56,7 +56,7 @@
 
 
         <div class="row">
-          <div class="col-12 m-auto my-5">
+          <div class="col-12 app-line-break">
             <div class="full-h-line"></div>
           </div>
         </div>
@@ -133,6 +133,10 @@ background: linear-gradient(90deg, rgba(20,182,197,1) 0%, rgba(8,56,72,1) 50%, r
 .app-text{
   color: #f7a51b;
 }
+.app-line-break{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
 
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -167,6 +171,10 @@ background: linear-gradient(90deg, rgba(20,182,197,1) 0%, rgba(8,56,72,1) 50%, r
   margin-left: auto;
   margin-right: auto;
   padding-top: 1rem;
+}
+.app-line-break{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
   .vue-icon{
     height: 5em;
