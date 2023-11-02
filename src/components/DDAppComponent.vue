@@ -60,7 +60,7 @@ export default {
 .sm-h-line {
   height: 1px;
   background: white;
-  width: 98%;
+  width: 100%;
 }
 .dd-icon-section{
   margin-top: 1rem;

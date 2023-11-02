@@ -2,14 +2,14 @@
 
   <div class="row mt-3" id="AllSpice">
       <div class="col-md-6 col-12 order-md-1 order-2">
-        <div class="ms-4 mb-5">
+        <div class="ms-4 mb-5 img-container">
           <a href="https://github.com/AndrewAllison2/Allspice">
             <img class="img-fluid allspice-img" src="https://codeworks.blob.core.windows.net/public/assets/img/projects/AllSpicePoster.jpg" alt="Keepr" title="View Github Repo">
           </a>
         </div>
       </div>
 
-      <div class="col-md-6 col-12 mt-5 order-md-2 order-1">
+      <div class="col-md-6 col-12 order-md-2 order-1">
         <div class="mb-3 text-white allspice-content">
           <h3 class="text-center">AllSpice</h3>
           <p>A recipe management application built independently using a Vue.Js front end and a .Net/MySQL back end where users
@@ -24,12 +24,14 @@
 
         <div class="sm-h-line mt-4"></div>
 
-        <div class="d-flex justify-content-between align-items-center mt-4 allspice-icon-section">
+        <div class="d-flex justify-content-between align-items-center mt-1 mt-md-4 allspice-icon-section">
           <img class="img fluid vue-icon2" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/367_Vuejs_logo-512.png" alt="VueJs" title="VueJs">
           <img class="img fluid mysql-icon" src="https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-512.png" alt="MySQL" title="MySQL">
           <img class="img fluid csharp-icon" src="https://www.freeiconspng.com/uploads/c-logo-icon-18.png" alt="C#" title="C#">
           <img class="img fluid post-icon" src="https://www.svgrepo.com/show/354202/postman-icon.svg" alt="Postman" title="Postman">
         </div>
+
+        <div class="sm-h-line d-md-none mt-3"></div>
 
         </div>
       </div>
@@ -51,8 +53,9 @@ export default {
   margin-right: 1.5rem;
 }
 .allspice-icon-section{
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .allspice-img {
   height: 25em;
@@ -83,6 +86,9 @@ export default {
 .allspice-img{
   height: auto;
   width: 92%;
+}
+.img-container{
+  margin-top: 1.5rem;
 }
 .allspice-icon-section{
   padding: 1rem;

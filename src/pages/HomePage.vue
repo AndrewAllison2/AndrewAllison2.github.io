@@ -66,7 +66,7 @@
         <AllSpiceComponent />
 
         <div class="row">
-          <div class="col-12 m-auto mt-5">
+          <div class="col-12 app-line-break">
             <div class="full-h-line"></div>
           </div>
         </div>
